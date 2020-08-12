@@ -3,6 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>helloworld</title>
+		<script type="text/javascript">
+			function toVuild(){
+				var name = document.getElementById("name").value;
+				var password = document.getElementById("password").value;
+				if (name != "yuan" &&  password != "123456") {
+					alert("账号或密码错误");
+					return false;
+				}
+				if(name =="" || password =="" ){
+					alert("账号不能为空或密码不能为空！");
+					return false;
+				}
+				
+				if(name == "yuan" && password == "123456"){
+					return true;
+				}
+			}
+		</script>
 		<style type="text/css">
 			#log{
 				border: 1px solid #646464;
@@ -48,24 +66,21 @@
 				font: normal 20px/44px "Microsoft Yahei";
 				letter-spacing:5px;
 				}
-			    .JianJu{
-					margin-top: 6px;
-				}
+			    
 		</style>
 	</head>
 	<body>
 		<div id="log">
-			<form action="*" method="post">
+			<form action="/homepage.html" method="post" onsubmit="return toVuild()">
 				<div id="logDiv">
 					<p style="left: 0.625rem;">请登录</p>
 				</div>
 				<div id="user">
-					账号：<input type="text" placeholder="手机号\邮箱\昵称" style="height: 1.875rem;" /><br />
-					密码：<input type="password" placeholder="请输入密码" style="height: 1.875rem;" class="JianJu" />
+					账号：<input type="text" id="name" placeholder="手机号\邮箱\昵称" style="height: 1.875rem;" /><br />
+					密码：<input type="password" id="password" placeholder="请输入密码" style="height: 1.875rem;" class="JianJu" />
 				</div>
 				<div id="check">
 					<input type="submit" id="logbutton" value="登录" /><br />
-					<input type="submit"  id="signbutton" value="注册" />
 				</div>
 			</form>
 		</div>
