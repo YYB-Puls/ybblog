@@ -5,7 +5,7 @@ public class BooleanAndChar {
         System.out.println(1>2);
         System.out.println(1<2);
 
-        
+
         System.out.println("abc");
         System.out.println('a');
     }
