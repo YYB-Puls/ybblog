@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day03/ForExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,28 +28,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3716" />
+          <entry key="java" value="3922" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3716" />
+          <entry key="JAVA" value="3922" />
           <entry key="JSP" value="43" />
           <entry key="XML" value="60" />
         </counts>
@@ -64,15 +63,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
               <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ComplexCharInString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -104,11 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/ForExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="135">
+              <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/ForExample.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java" />
       </list>
     </option>
   </component>
@@ -259,13 +259,6 @@
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ybblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ybblog" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Day03" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -279,7 +272,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IDEA/ybblog/JavaStudy/src/Day02/BooleanAndChar.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598017511738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598033525016" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -305,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForExample">
+  <component name="RunManager" selected="Application.Example">
     <configuration name="CalcDivFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day03.CalcDivFor" />
       <module name="JavaStudy" />
@@ -332,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03.ForExample" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day03.Day04.Example" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day03.*" />
+          <option name="PATTERN" value="Day03.Day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,8 +338,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseNest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03.IfElseNest" />
+    <configuration name="ForExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day03.ForExample" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -434,19 +427,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IfElseNest" />
       <item itemvalue="Application.SimpleFor" />
       <item itemvalue="Application.CalcDivFor" />
       <item itemvalue="Application.CodeBlock" />
       <item itemvalue="Application.ForExample" />
+      <item itemvalue="Application.Example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.ForExample" />
         <item itemvalue="Application.CodeBlock" />
         <item itemvalue="Application.CalcDivFor" />
         <item itemvalue="Application.SimpleFor" />
-        <item itemvalue="Application.IfElseNest" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +454,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597890368106</updated>
       <workItem from="1597890380179" duration="12257000" />
-      <workItem from="1597984639230" duration="11036000" />
+      <workItem from="1597984639230" duration="12851000" />
     </task>
     <servers />
   </component>
@@ -471,7 +464,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23293000" />
+    <option name="totallyTimeSpent" value="25108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
@@ -719,8 +712,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/ForExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
