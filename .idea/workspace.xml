@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day04/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,28 +29,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="java" value="29" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="29" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3922" />
+          <entry key="java" value="3931" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3922" />
+          <entry key="JAVA" value="3931" />
           <entry key="JSP" value="43" />
           <entry key="XML" value="60" />
         </counts>
@@ -58,92 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ListralNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/IncreaseDecrease.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/IfElseBaoZi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/Example.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/ForExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day04/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/IfElseNest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/SimpleFor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="189">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -191,6 +111,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/ForExample.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day04/Example.java" />
       </list>
     </option>
   </component>
@@ -272,7 +193,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IDEA/ybblog/JavaStudy/src/Day02/BooleanAndChar.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598033525016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598033864021" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -454,7 +375,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597890368106</updated>
       <workItem from="1597890380179" duration="12257000" />
-      <workItem from="1597984639230" duration="12851000" />
+      <workItem from="1597984639230" duration="13491000" />
     </task>
     <servers />
   </component>
@@ -464,11 +385,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25108000" />
+    <option name="totallyTimeSpent" value="25748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019531" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="1" />
@@ -476,7 +396,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3297414" />
@@ -487,8 +407,8 @@
       <window_info anchor="bottom" id="Messages" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.4525862" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.14978448" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.4525862" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.2424569" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -719,8 +639,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="432">
+          <caret line="16" column="23" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day04/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>

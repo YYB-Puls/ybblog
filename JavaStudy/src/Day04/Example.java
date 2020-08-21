@@ -1,4 +1,4 @@
-package Day03.Day04;
+package Day04;
 
 public class Example {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Example {
 
         int dividend = 100;
         int divisor = 89;
-         
+
         int found = 0;
 
         while (found < n){
