@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day02/ForceConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day02/ComplexCharInString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,28 +28,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="17" />
+          <entry key="java" value="18" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="18" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2392" />
+          <entry key="java" value="2422" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2392" />
+          <entry key="JAVA" value="2422" />
           <entry key="JSP" value="43" />
           <entry key="XML" value="60" />
         </counts>
@@ -58,19 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/FloatCalc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/BooleanAndChar.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,11 +130,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ForceConvert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ComplexCharInString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -185,6 +181,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day02/ListralNumber.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day02/AutoConvert.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day02/ForceConvert.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day02/ComplexCharInString.java" />
       </list>
     </option>
   </component>
@@ -273,7 +270,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IDEA/ybblog/JavaStudy/src/Day02/BooleanAndChar.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597987911632" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597988763720" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -299,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForceConvert">
+  <component name="RunManager" selected="Application.ComplexCharInString">
     <configuration name="AutoConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day02.AutoConvert" />
       <module name="JavaStudy" />
@@ -326,8 +323,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForceConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02.ForceConvert" />
+    <configuration name="ComplexCharInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day02.ComplexCharInString" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -339,8 +336,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerDiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02.IntegerDiv" />
+    <configuration name="ForceConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day02.ForceConvert" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -428,19 +425,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerDiv" />
       <item itemvalue="Application.BooleanOprt" />
       <item itemvalue="Application.ListralNumber" />
       <item itemvalue="Application.AutoConvert" />
       <item itemvalue="Application.ForceConvert" />
+      <item itemvalue="Application.ComplexCharInString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComplexCharInString" />
         <item itemvalue="Application.ForceConvert" />
         <item itemvalue="Application.AutoConvert" />
         <item itemvalue="Application.ListralNumber" />
         <item itemvalue="Application.BooleanOprt" />
-        <item itemvalue="Application.IntegerDiv" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +452,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597890368106</updated>
       <workItem from="1597890380179" duration="12257000" />
-      <workItem from="1597984639230" duration="2479000" />
+      <workItem from="1597984639230" duration="3146000" />
     </task>
     <servers />
   </component>
@@ -465,7 +462,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14736000" />
+    <option name="totallyTimeSpent" value="15403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
@@ -650,8 +647,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ForceConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ComplexCharInString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
