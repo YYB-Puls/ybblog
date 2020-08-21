@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,28 +28,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="25" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="25" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3430" />
+          <entry key="java" value="3618" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3430" />
+          <entry key="JAVA" value="3618" />
           <entry key="JSP" value="43" />
           <entry key="XML" value="60" />
         </counts>
@@ -63,15 +63,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
               <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/AutoConvert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -139,11 +130,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="567">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -188,6 +188,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/IfElseNest.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/SimpleFor.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java" />
       </list>
     </option>
   </component>
@@ -276,7 +277,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IDEA/ybblog/JavaStudy/src/Day02/BooleanAndChar.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597997472101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598016540237" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -302,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalcDivFor">
+  <component name="RunManager" selected="Application.CodeBlock">
     <configuration name="CalcDivFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day03.CalcDivFor" />
       <module name="JavaStudy" />
@@ -316,8 +317,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03.Example" />
+    <configuration name="CodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day03.CodeBlock" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -329,8 +330,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseBaoZi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03.IfElseBaoZi" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day03.Example" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -431,19 +432,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IfElseBaoZi" />
       <item itemvalue="Application.Example" />
       <item itemvalue="Application.IfElseNest" />
       <item itemvalue="Application.SimpleFor" />
       <item itemvalue="Application.CalcDivFor" />
+      <item itemvalue="Application.CodeBlock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeBlock" />
         <item itemvalue="Application.CalcDivFor" />
         <item itemvalue="Application.SimpleFor" />
         <item itemvalue="Application.IfElseNest" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.IfElseBaoZi" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +459,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597890368106</updated>
       <workItem from="1597890380179" duration="12257000" />
-      <workItem from="1597984639230" duration="8034000" />
+      <workItem from="1597984639230" duration="10010000" />
     </task>
     <servers />
   </component>
@@ -468,7 +469,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20291000" />
+    <option name="totallyTimeSpent" value="22267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
@@ -637,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ListralNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/AutoConvert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -693,6 +687,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/ListralNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/SimpleFor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -702,8 +703,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="567">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
