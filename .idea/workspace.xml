@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day04/ShuZu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day04/Scanner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,28 +29,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
+          <entry key="java" value="31" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="31" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4529" />
+          <entry key="java" value="4546" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4529" />
+          <entry key="JAVA" value="4546" />
           <entry key="JSP" value="43" />
           <entry key="XML" value="60" />
         </counts>
@@ -68,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day04/ShuZu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="864">
               <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day04/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -122,6 +131,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/Day04/Example.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day04/Example.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day04/ShuZu.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day04/Scanner.java" />
       </list>
     </option>
   </component>
@@ -147,7 +157,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="900" />
     <option name="y" value="3" />
     <option name="width" value="1022" />
@@ -210,7 +220,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IDEA/ybblog/JavaStudy/src/Day02/BooleanAndChar.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598124646461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598125391915" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -236,20 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShuZu">
-    <configuration name="CalcDivFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03.CalcDivFor" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Scanner">
     <configuration name="CodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day03.CodeBlock" />
       <module name="JavaStudy" />
@@ -282,6 +279,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04.Scanner" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,19 +375,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CalcDivFor" />
       <item itemvalue="Application.CodeBlock" />
       <item itemvalue="Application.ForExample" />
       <item itemvalue="Application.Example" />
       <item itemvalue="Application.ShuZu" />
+      <item itemvalue="Application.Scanner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scanner" />
         <item itemvalue="Application.ShuZu" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.ForExample" />
         <item itemvalue="Application.CodeBlock" />
-        <item itemvalue="Application.CalcDivFor" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +403,7 @@
       <updated>1597890368106</updated>
       <workItem from="1597890380179" duration="12257000" />
       <workItem from="1597984639230" duration="13645000" />
-      <workItem from="1598123294080" duration="1413000" />
+      <workItem from="1598123294080" duration="1882000" />
     </task>
     <servers />
   </component>
@@ -403,10 +413,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27315000" />
+    <option name="totallyTimeSpent" value="27784000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1062" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019531" side_tool="true" weight="0.25266525" />
@@ -668,6 +678,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day04/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
