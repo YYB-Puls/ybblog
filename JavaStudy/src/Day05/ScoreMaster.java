@@ -1,7 +1,9 @@
 package Day05;
 
+import com.sun.org.apache.xpath.internal.functions.FuncFalse;
+
 import java.util.Scanner;
-import java.util.jar.JarEntry;
+
 
 public class ScoreMaster {
     public static void main(String[] args) {
@@ -34,8 +36,8 @@ public class ScoreMaster {
                 System.out.println("第"+(i+1)+"年"+names[j]+"成绩为:"+scores[i][j]);
             }
         }
-
-        while (true){
+        boolean cont = true;
+        while (cont){
             System.out.println("请输入要进行的操作:");
             System.out.println("1:求某年最好成绩\n" +
                     "2:求某年的平均成绩\n" +
@@ -100,8 +102,19 @@ public class ScoreMaster {
                     System.out.println("历年最好成绩为第"+(year+1)+"年的"+names[bestOfYearsScoreId]+"成绩为:"+scores[year][bestOfYearsScoreId]);
                     break;
                 case 4:
+                    System.out.println("请输入要查询哪门课程的历年最好成绩:");
+                    int scoreId = scanner.nextInt() - 1;
+                    year = 0;
+                    for (int i = 1; i < scores.length; i++){
+                        if (scores[year][scoreId] < scores[i][scoreId]){
+                            year = i;
+                        }
+                    }
+                    System.out.println(names[scoreId] + "历年最好成绩为第"+(year+1)+"年,成绩为:"+scores[year][scoreId]);
                     break;
                 default:
+                    System.out.println("程序结束!");
+                    cont = false;
             }
         }
 
