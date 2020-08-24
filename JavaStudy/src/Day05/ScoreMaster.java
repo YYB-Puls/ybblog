@@ -1,6 +1,7 @@
 package Day05;
 
 import java.util.Scanner;
+import java.util.jar.JarEntry;
 
 public class ScoreMaster {
     public static void main(String[] args) {
@@ -73,6 +74,17 @@ public class ScoreMaster {
                     System.out.println("第"+(year+1)+"年的平均成绩为"+(zongfen / names.length));
                     break;
                 case 3:
+                    for (int i = 0; i < yearCout; i++){
+                        double ZuiDa = 0;
+                        int suoYin = 0;
+                        for (int j = 0; j < totalCcoreCount; j++){
+                            if (ZuiDa < scores[i][j]){
+                               ZuiDa =  scores[i][j];
+                               suoYin = j;
+                            }
+                        }
+                        System.out.println("第"+(i+1)+"年的最好成绩为:"+names[suoYin]+":"+ZuiDa);
+                    }
                     break;
                 case 4:
                     break;
