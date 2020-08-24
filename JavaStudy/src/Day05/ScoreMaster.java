@@ -74,7 +74,8 @@ public class ScoreMaster {
                     System.out.println("第"+(year+1)+"年的平均成绩为"+(zongfen / names.length));
                     break;
                 case 3:
-                    for (int i = 0; i < yearCout; i++){
+                    //第一个版本
+                    /*for (int i = 0; i < yearCout; i++){
                         double ZuiDa = 0;
                         int suoYin = 0;
                         for (int j = 0; j < totalCcoreCount; j++){
@@ -84,7 +85,19 @@ public class ScoreMaster {
                             }
                         }
                         System.out.println("第"+(i+1)+"年的最好成绩为:"+names[suoYin]+":"+ZuiDa);
+                    }*/
+                    //第二个版本
+                    int bestOfYearsScoreId = 0;
+                     year = 0;
+                    for (int i = 0; i < scores.length; i++){
+                        for (int j = 0; j < scores[i].length; j++){
+                            if (scores[year][bestOfYearsScoreId] < scores[i][j]){
+                                year = i;
+                                bestOfYearsScoreId = j;
+                            }
+                        }
                     }
+                    System.out.println("历年最好成绩为第"+(year+1)+"年的"+names[bestOfYearsScoreId]+"成绩为:"+scores[year][bestOfYearsScoreId]);
                     break;
                 case 4:
                     break;

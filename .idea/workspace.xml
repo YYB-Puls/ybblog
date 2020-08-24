@@ -44,14 +44,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7036" />
+          <entry key="java" value="7294" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7036" />
+          <entry key="JAVA" value="7294" />
           <entry key="JSP" value="43" />
           <entry key="XML" value="60" />
         </counts>
@@ -126,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/ScoreMaster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+            <state relative-caret-position="291">
+              <caret line="94" column="41" lean-forward="true" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -274,7 +274,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IDEA/ybblog/JavaStudy/src/Day02/BooleanAndChar.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598267782261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598268636424" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -458,7 +458,7 @@
       <workItem from="1597890380179" duration="12257000" />
       <workItem from="1597984639230" duration="13645000" />
       <workItem from="1598123294080" duration="5955000" />
-      <workItem from="1598244396852" duration="8878000" />
+      <workItem from="1598244396852" duration="9657000" />
     </task>
     <servers />
   </component>
@@ -468,7 +468,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40735000" />
+    <option name="totallyTimeSpent" value="41514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
@@ -721,6 +721,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
           <caret line="772" selection-start-line="772" selection-end-line="772" />
+          <folding>
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/ScoreMaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+        <state relative-caret-position="291">
+          <caret line="94" column="41" lean-forward="true" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
