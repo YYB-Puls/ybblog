@@ -60,7 +60,17 @@ public class ScoreMaster {
                     System.out.println("第"+(year+1)+"年最好的成绩为"+names[bestOfYearScoreId]+":"+scores[year][bestOfYearScoreId]);
                     break;
                 case 2:
-
+                    System.out.println("请输入要求哪一年的平均成绩");
+                    year = scanner.nextInt() -1;
+                    if (year < 0 || year >= yearCout){
+                        System.out.println("输入非法年份");
+                        break;
+                    }
+                    double zongfen = 0;
+                    for (int i = 0; i < scores[year].length; i++){
+                        zongfen += scores[year][i];
+                    }
+                    System.out.println("第"+(year+1)+"年的平均成绩为"+(zongfen / names.length));
                     break;
                 case 3:
                     break;
