@@ -29,6 +29,6 @@ public class MyPhoneMaker {
 
         phone.mainboard.model = "E8888";
         phone.mainboard.year = 2019;
-        
+
     }
 }

@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day05/ScoreMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day05/ScoreMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseAppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,28 +33,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="53" />
+          <entry key="java" value="55" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="53" />
+          <entry key="JAVA" value="55" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8913" />
+          <entry key="java" value="9190" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8913" />
+          <entry key="JAVA" value="9190" />
           <entry key="JSP" value="43" />
           <entry key="XML" value="60" />
         </counts>
@@ -62,15 +63,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day04/DuoWeiShuZu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/ScoreMaster.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,20 +75,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="151">
+              <caret line="6" selection-start-line="6" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/ArrayIsClass.java">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/Merchandise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="54">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseAppMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -216,6 +217,8 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day05/Phone.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day05/ScoreMaster.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/Merchandise.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseAppMain.java" />
       </list>
     </option>
   </component>
@@ -241,7 +244,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="900" />
     <option name="y" value="3" />
     <option name="width" value="1022" />
@@ -291,7 +294,24 @@
               <item name="ybblog" type="462c0819:PsiDirectoryNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Day05" type="462c0819:PsiDirectoryNode" />
+              <item name="Day06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ybblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ybblog" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Day06" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ybblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ybblog" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Day06" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +324,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IDEA/ybblog/JavaStudy/src/Day02/BooleanAndChar.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598336967255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598340542363" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -331,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayIsClass">
+  <component name="RunManager" selected="Application.MerchandiseAppMain">
     <configuration name="ArrayIsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day05.ArrayIsClass" />
       <module name="JavaStudy" />
@@ -371,12 +391,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOutOfBoundExmple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04.IndexOutOfBoundExmple" />
+    <configuration name="MerchandiseAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day06.com.geekbang.MerchandiseAppMain" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day04.*" />
+          <option name="PATTERN" value="Day06.com.geekbang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,19 +480,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IndexOutOfBoundExmple" />
       <item itemvalue="Application.AssignArray" />
       <item itemvalue="Application.DuoWeiShuZu" />
       <item itemvalue="Application.ScoreMaster" />
       <item itemvalue="Application.ArrayIsClass" />
+      <item itemvalue="Application.MerchandiseAppMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MerchandiseAppMain" />
         <item itemvalue="Application.ArrayIsClass" />
         <item itemvalue="Application.ScoreMaster" />
         <item itemvalue="Application.DuoWeiShuZu" />
         <item itemvalue="Application.AssignArray" />
-        <item itemvalue="Application.IndexOutOfBoundExmple" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +510,7 @@
       <workItem from="1597984639230" duration="13645000" />
       <workItem from="1598123294080" duration="5955000" />
       <workItem from="1598244396852" duration="19081000" />
-      <workItem from="1598319386422" duration="2749000" />
+      <workItem from="1598319386422" duration="3786000" />
     </task>
     <servers />
   </component>
@@ -500,10 +520,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53687000" />
+    <option name="totallyTimeSpent" value="54724000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1062" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019531" side_tool="true" weight="0.25266525" />
@@ -546,20 +566,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebServlet/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebServlet/web/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebServlet/web/Login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -879,8 +885,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="151">
+          <caret line="6" selection-start-line="6" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/Merchandise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseAppMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
         </state>
       </provider>
     </entry>
