@@ -48,33 +48,13 @@ public class ScoreMaster {
             int year = 0;
             switch (oprId){
                 case 1 :
-                    System.out.println("请输入要求哪一年的最好成绩");
-                    year = scanner.nextInt() -1;
-                    if (year < 0 || year >= yearCout){
-                        System.out.println("输入非法年份");
-                        break;
-                    }
-                    int bestOfYearScoreId = 0;
-                    for (int i = 1; i < scores[year].length; i++){
-                        if (scores[year][bestOfYearScoreId] < scores[year][i]){
-                            bestOfYearScoreId = i;
-                        }
-                    }
-                    System.out.println("第"+(year+1)+"年最好的成绩为"+names[bestOfYearScoreId]+":"+scores[year][bestOfYearScoreId]);
+                    zuiHaoChengJi(names, scanner, yearCout, scores);
                     break;
+
                 case 2:
-                    System.out.println("请输入要求哪一年的平均成绩");
-                    year = scanner.nextInt() -1;
-                    if (year < 0 || year >= yearCout){
-                        System.out.println("输入非法年份");
-                        break;
-                    }
-                    double zongfen = 0;
-                    for (int i = 0; i < scores[year].length; i++){
-                        zongfen += scores[year][i];
-                    }
-                    System.out.println("第"+(year+1)+"年的平均成绩为"+(zongfen / names.length));
+                    pingJunChengJi(names, scanner, yearCout, scores);
                     break;
+
                 case 3:
                     //第一个版本
                     /*for (int i = 0; i < yearCout; i++){
@@ -118,5 +98,37 @@ public class ScoreMaster {
             }
         }
 
+    }
+
+    private static void pingJunChengJi(String[] names, Scanner scanner, int yearCout, double[][] scores) {
+        int year;
+        System.out.println("请输入要求哪一年的平均成绩");
+        year = scanner.nextInt() -1;
+        if (year < 0 || year >= yearCout){
+            System.out.println("输入非法年份");
+            return;
+        }
+        double zongfen = 0;
+        for (int i = 0; i < scores[year].length; i++){
+            zongfen += scores[year][i];
+        }
+        System.out.println("第"+(year+1)+"年的平均成绩为"+(zongfen / names.length));
+    }
+
+    private static void zuiHaoChengJi(String[] names, Scanner scanner, int yearCout, double[][] scores) {
+        int year;
+        System.out.println("请输入要求哪一年的最好成绩");
+        year = scanner.nextInt() -1;
+        if (year < 0 || year >= yearCout){
+            System.out.println("输入非法年份");
+            return;
+        }
+        int bestOfYearScoreId = 0;
+        for (int i = 1; i < scores[year].length; i++){
+            if (scores[year][bestOfYearScoreId] < scores[year][i]){
+                bestOfYearScoreId = i;
+            }
+        }
+        System.out.println("第"+(year+1)+"年最好的成绩为"+names[bestOfYearScoreId]+":"+scores[year][bestOfYearScoreId]);
     }
 }
