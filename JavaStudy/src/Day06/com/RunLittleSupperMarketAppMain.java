@@ -60,6 +60,9 @@ public class RunLittleSupperMarketAppMain {
                 if (index < 0){
                     break;
                 }
+                if (index >= all.length){
+                    System.out.println("本店没有该商品,请输入0到"+(all.length-1)+"的商品") ;
+                }
                 Merchandise m = all[index];
                 System.out.println("您选购的商品名字"+m.name+",单价是:"+m.soldPrice+",请问要购买多少个");
                 int numToby = scanner.nextInt();
