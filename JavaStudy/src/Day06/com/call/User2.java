@@ -1,6 +1,6 @@
 package Day06.com.call;
 
-public class User {
+public class User2 {
     public String name;
     public int password;
 
@@ -9,7 +9,11 @@ public class User {
         System.out.println("用户"+name+",密码"+password);
     }
 
-    public void eat(){
+    private void eat(){
         System.out.println("用户吃苹果!");
+    }
+
+    public void swin(){
+        System.out.println(name+"游泳获得了第一名");
     }
 }
