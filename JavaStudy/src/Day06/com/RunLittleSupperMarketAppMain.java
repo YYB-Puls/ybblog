@@ -70,6 +70,10 @@ public class RunLittleSupperMarketAppMain {
                     System.out.println("不买看看也好");
                     continue;
                 }
+                if (numToby > m.count){
+                    System.out.println("本店库存没有这么多");
+                    continue;
+                }
                 if (numToby * m.purchasePrice > customer.money){
                     System.out.println("您带的钱不够了");
                     continue;
