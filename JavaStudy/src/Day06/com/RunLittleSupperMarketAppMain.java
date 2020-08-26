@@ -2,7 +2,6 @@ package Day06.com;
 
 import Day06.com.geekbang.LittleSuperMarket;
 import Day06.com.geekbang.Merchandise;
-import Day06.com.geekbang.MerchandiseV2;
 import Day06.com.person.Customer;
 
 import java.util.Scanner;

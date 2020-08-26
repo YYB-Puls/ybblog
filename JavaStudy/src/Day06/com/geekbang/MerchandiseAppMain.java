@@ -11,5 +11,7 @@ public class MerchandiseAppMain {
 
         System.out.println("商品名字叫做:"+merchandise.name+",id是"+merchandise.id+",商品售价是:"+merchandise.soldPrice+",商品进价是:"+merchandise.purchasePrice
         +"商品库存为:"+merchandise.count+",销售一个毛利润是"+(merchandise.soldPrice - merchandise.purchasePrice));
+
+        merchandise.describe();
     }
 }
