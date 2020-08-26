@@ -66,7 +66,9 @@ public class RunLittleSupperMarketAppMain {
                 System.out.println("您选购的商品名字"+m.name+",单价是:"+m.soldPrice+",请问要购买多少个");
                 int numToby = scanner.nextInt();
 
-                
+                if (numToby <= 0){
+                    System.out.println("不买看看也好");
+                }
 
 
 

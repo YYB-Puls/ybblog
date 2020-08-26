@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="" />
+    <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day06/com/RunLittleSupperMarketAppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day06/com/RunLittleSupperMarketAppMain.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +46,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="12754" />
+          <entry key="java" value="12787" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12754" />
+          <entry key="JAVA" value="12787" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="60" />
@@ -123,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/RunLittleSupperMarketAppMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="594">
+              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,7 +197,6 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/person/Customer.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/LittleSuperMarket.java" />
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/RunLittleSupperMarketAppMain.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/call/a.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/call/b.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/call/A.java" />
@@ -207,6 +208,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/Merchandise.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseV2AppMain.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseAppMain.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/RunLittleSupperMarketAppMain.java" />
       </list>
     </option>
   </component>
@@ -321,7 +323,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598427577239" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598427782901" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -507,7 +509,7 @@
       <workItem from="1597984639230" duration="13645000" />
       <workItem from="1598123294080" duration="5955000" />
       <workItem from="1598244396852" duration="19081000" />
-      <workItem from="1598319386422" duration="18775000" />
+      <workItem from="1598319386422" duration="19086000" />
     </task>
     <servers />
   </component>
@@ -517,7 +519,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69713000" />
+    <option name="totallyTimeSpent" value="70024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,6 +532,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019531" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="1" />
@@ -955,8 +958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/RunLittleSupperMarketAppMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="594">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
