@@ -68,8 +68,12 @@ public class RunLittleSupperMarketAppMain {
 
                 if (numToby <= 0){
                     System.out.println("不买看看也好");
+                    continue;
                 }
-
+                if (numToby * m.purchasePrice > customer.money){
+                    System.out.println("您带的钱不够了");
+                    continue;
+                }
 
 
                 totalCost += numToby * m.soldPrice;
