@@ -65,6 +65,11 @@ public class RunLittleSupperMarketAppMain {
                 Merchandise m = all[index];
                 System.out.println("您选购的商品名字"+m.name+",单价是:"+m.soldPrice+",请问要购买多少个");
                 int numToby = scanner.nextInt();
+
+                
+
+
+
                 totalCost += numToby * m.soldPrice;
                 m.count -= numToby;
                 littleSuperMarket.merchandiseSold[index] += numToby;
