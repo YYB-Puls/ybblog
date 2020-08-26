@@ -5,13 +5,13 @@ public class LittleSuperMarket {
     public String address;
     public int parkingCount;
     public double incomingSum;
-    public MerchandiseV2[] merchandises;
+    public Merchandise[] merchandises;
     public int[] merchandiseSold;
 
-    public MerchandiseV2 getBinggestProfitMerchandise(){
-        MerchandiseV2 curr = null;
+    /*public MerchandisegetBinggestProfitMerchandise(){
+        Merchandise curr = null;
         for (int i = 0; i < merchandises.length; i++){
-            MerchandiseV2 m = merchandises[i];
+            Merchandise m = merchandises[i];
             if (curr==null){
                 curr = m;
                 continue;
@@ -23,6 +23,6 @@ public class LittleSuperMarket {
             }
         }
         return curr;
-    }
+    }*/
 
 }
