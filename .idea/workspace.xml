@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,14 +34,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="81" />
+          <entry key="java" value="82" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="81" />
+          <entry key="JAVA" value="82" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
@@ -49,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="16482" />
+          <entry key="java" value="16605" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16482" />
+          <entry key="JAVA" value="16605" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="XML" value="60" />
@@ -84,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess01.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -108,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day03/Example.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/IfElseNest.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/SimpleFor.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java" />
@@ -159,6 +167,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day08/FineBiggestInSchool.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day08/YangHui.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess01.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java" />
       </list>
     </option>
   </component>
@@ -254,7 +263,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598940887737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598941372035" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -281,13 +290,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exerciess01">
-    <configuration name="ArrayElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07.ArrayElement" />
+  <component name="RunManager" selected="Application.Exerciess02">
+    <configuration name="Exerciess01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day08.Exerciess01" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day07.*" />
+          <option name="PATTERN" value="Day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,8 +304,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exerciess01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day08.Exerciess01" />
+    <configuration name="Exerciess02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day08.Exerciess02" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -410,19 +419,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayElement" />
       <item itemvalue="Application.FineBiggest" />
       <item itemvalue="Application.FineBiggestInSchool" />
       <item itemvalue="Application.YangHui" />
       <item itemvalue="Application.Exerciess01" />
+      <item itemvalue="Application.Exerciess02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exerciess02" />
         <item itemvalue="Application.Exerciess01" />
         <item itemvalue="Application.YangHui" />
         <item itemvalue="Application.FineBiggestInSchool" />
         <item itemvalue="Application.FineBiggest" />
-        <item itemvalue="Application.ArrayElement" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +452,7 @@
       <workItem from="1598319386422" duration="20237000" />
       <workItem from="1598577873417" duration="8693000" />
       <workItem from="1598653418551" duration="2489000" />
-      <workItem from="1598936622104" duration="4234000" />
+      <workItem from="1598936622104" duration="4600000" />
     </task>
     <servers />
   </component>
@@ -453,7 +462,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86591000" />
+    <option name="totallyTimeSpent" value="86957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,13 +555,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CalcDivFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day03/CodeBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -850,8 +852,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess01.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
