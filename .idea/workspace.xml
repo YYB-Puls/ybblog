@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="16605" />
+          <entry key="java" value="16699" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16605" />
+          <entry key="JAVA" value="16699" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="XML" value="60" />
@@ -96,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="243">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -263,7 +263,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598941372035" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598941748014" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -290,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exerciess02">
+  <component name="RunManager" selected="Application.Exerciess03">
     <configuration name="Exerciess01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day08.Exerciess01" />
       <module name="JavaStudy" />
@@ -304,8 +304,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exerciess02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day08.Exerciess02" />
+    <configuration name="Exerciess03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day08.Exerciess03" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -423,11 +423,11 @@
       <item itemvalue="Application.FineBiggestInSchool" />
       <item itemvalue="Application.YangHui" />
       <item itemvalue="Application.Exerciess01" />
-      <item itemvalue="Application.Exerciess02" />
+      <item itemvalue="Application.Exerciess03" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exerciess02" />
+        <item itemvalue="Application.Exerciess03" />
         <item itemvalue="Application.Exerciess01" />
         <item itemvalue="Application.YangHui" />
         <item itemvalue="Application.FineBiggestInSchool" />
@@ -452,7 +452,7 @@
       <workItem from="1598319386422" duration="20237000" />
       <workItem from="1598577873417" duration="8693000" />
       <workItem from="1598653418551" duration="2489000" />
-      <workItem from="1598936622104" duration="4600000" />
+      <workItem from="1598936622104" duration="4972000" />
     </task>
     <servers />
   </component>
@@ -462,7 +462,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86957000" />
+    <option name="totallyTimeSpent" value="87329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +483,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.15245202" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3297414" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3297414" />
@@ -494,7 +494,7 @@
       <window_info anchor="bottom" id="Messages" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.38685346" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.38685346" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.40625" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -859,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/Exerciess02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="243">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
