@@ -16,4 +16,12 @@ public class Book {
         this.pageCount = b_pageCount;
         this.price = b_price;
     }
+
+    public void getBookName(){
+        System.out.println("书名:"+bookName);
+    }
+
+    public void getBookName(String b_bookName){
+        this.bookName = b_bookName;
+    }
 }
