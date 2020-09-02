@@ -21,7 +21,7 @@ public class Book {
         System.out.println("书名:"+bookName);
     }
 
-    public void getBookName(String b_bookName){
+    public void setBookName(String b_bookName){
         this.bookName = b_bookName;
     }
 
