@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="" />
+    <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day09/TestBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day09/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day09/Book.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +50,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="100" />
+          <entry key="java" value="101" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="100" />
+          <entry key="JAVA" value="101" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
@@ -62,14 +65,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="20801" />
+          <entry key="java" value="21007" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20801" />
+          <entry key="JAVA" value="21007" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="XML" value="60" />
@@ -157,20 +160,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="108">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/ClassAndObject/BookImpl.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/TestBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+            <state relative-caret-position="135">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -190,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day05/CPU.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day05/Memory.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day05/Storage.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day05/Mainboard.java" />
@@ -241,6 +249,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/Car.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/TestManyMethod.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/Book.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day09/TestBook.java" />
       </list>
     </option>
   </component>
@@ -344,7 +353,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599041657545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599042280858" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -374,9 +383,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestManyMethod">
-    <configuration name="TestCar (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day09.TestCar" />
+  <component name="RunManager" selected="Application.TestBook">
+    <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day09.TestBook" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -388,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day08.Method.TestCar" />
+    <configuration name="TestCar (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day09.TestCar" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day08.Method.*" />
+          <option name="PATTERN" value="Day09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,19 +512,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCar" />
       <item itemvalue="Application.TestParmeterOfMethod" />
       <item itemvalue="Application.TestOverloadMethod" />
       <item itemvalue="Application.TestCar (1)" />
       <item itemvalue="Application.TestManyMethod" />
+      <item itemvalue="Application.TestBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.TestManyMethod" />
         <item itemvalue="Application.TestCar (1)" />
         <item itemvalue="Application.TestOverloadMethod" />
         <item itemvalue="Application.TestParmeterOfMethod" />
-        <item itemvalue="Application.TestCar" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +546,7 @@
       <workItem from="1598577873417" duration="8693000" />
       <workItem from="1598653418551" duration="2489000" />
       <workItem from="1598936622104" duration="12638000" />
-      <workItem from="1599021791359" duration="9320000" />
+      <workItem from="1599021791359" duration="9969000" />
     </task>
     <servers />
   </component>
@@ -547,7 +556,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104315000" />
+    <option name="totallyTimeSpent" value="104964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,7 +577,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.17803837" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3297414" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3297414" />
@@ -579,7 +588,7 @@
       <window_info anchor="bottom" id="Messages" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.36637932" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.36637932" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.40625" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -677,13 +686,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/Screnn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day05/CPU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -952,19 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/TestManyMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -979,10 +968,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="108">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/TestBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>

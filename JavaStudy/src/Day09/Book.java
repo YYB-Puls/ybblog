@@ -24,4 +24,8 @@ public class Book {
     public void getBookName(String b_bookName){
         this.bookName = b_bookName;
     }
+
+    public void pring(){
+        System.out.println("书名:"+bookName+",页数:"+pageCount+",价格:"+price);
+    }
 }
