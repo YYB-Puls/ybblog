@@ -2,16 +2,16 @@ package Day09;
 
 public class ObjArrClone {
     public static void main(String[] args) {
-        TestClone[] arr = new TestClone[2];
-        arr[1] = new TestClone();
+        // 创建一个长度为2的TestClone对象数组arr
+        // 将arr第一个元素赋值为新对象
 
-        TestClone[] cloneArr = arr.clone();
-        arr[1].value = 777;
-        cloneArr[1].value = 999;
-        System.out.println("arr的第二个元素的value属性的值是"+arr[1].value+",cloneArr的第二个元素的value属性值是"+cloneArr[1].value);
-        cloneArr[1] = new TestClone();
-        arr[1].value = 777;
-        cloneArr[1].value = 999;
-        System.out.println("arr的第二个元素的value属性的值是"+arr[1].value+",cloneArr的第二个元素的value属性值是"+cloneArr[1].value);
+        // 克隆arr，命名为cloneArr
+        // 将aar第一个元素的值设置为777；
+        // 将cloneArr第一个元素的值设置为999；
+        // 打印arr第二个元素的值和cloneArr第二个元素的值
+        // 给cloneArr第二个元素赋值为新对象
+        // 将aar第二个元素的值设置为777；
+        // 将cloneArr第二个元素的值设置为999；
+        // 打印arr第二个元素的值和cloneArr第二个元素的值
     }
 }
