@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day09/IterateChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="107" />
+          <entry key="java" value="108" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
@@ -59,7 +59,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="107" />
+          <entry key="JAVA" value="108" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
@@ -67,14 +67,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="22742" />
+          <entry key="java" value="23257" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22742" />
+          <entry key="JAVA" value="23257" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="XML" value="60" />
@@ -84,15 +84,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day08/ClassAndObject/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/Book.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,11 +145,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/IterateChars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="432">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -188,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day05/MyPhoneMaker.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/person/Customer.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/LittleSuperMarket.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/call/a.java" />
@@ -239,6 +238,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/ObjArrClone.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/MultiDArrClone.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/IterateChars.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java" />
       </list>
     </option>
   </component>
@@ -340,7 +340,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599114762499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599116068514" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -481,7 +481,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IterateChars">
+  <component name="RunManager" selected="Application.SubString">
     <configuration name="IterateChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day09.IterateChars" />
       <module name="JavaStudy" />
@@ -534,8 +534,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day09.TestBook" />
+    <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day09.SubString" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -610,19 +610,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestBook" />
       <item itemvalue="Application.PrimerArrClone" />
       <item itemvalue="Application.ObjArrClone" />
       <item itemvalue="Application.MultiDArrClone" />
       <item itemvalue="Application.IterateChars" />
+      <item itemvalue="Application.SubString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubString" />
         <item itemvalue="Application.IterateChars" />
         <item itemvalue="Application.MultiDArrClone" />
         <item itemvalue="Application.ObjArrClone" />
         <item itemvalue="Application.PrimerArrClone" />
-        <item itemvalue="Application.TestBook" />
       </list>
     </recent_temporary>
   </component>
@@ -645,7 +645,7 @@
       <workItem from="1598653418551" duration="2489000" />
       <workItem from="1598936622104" duration="12638000" />
       <workItem from="1599021791359" duration="10528000" />
-      <workItem from="1599098921624" duration="8964000" />
+      <workItem from="1599098921624" duration="10278000" />
     </task>
     <servers />
   </component>
@@ -655,7 +655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114487000" />
+    <option name="totallyTimeSpent" value="115801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,13 +752,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day02/IncreaseDecrease.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/call/B.java" />
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/call/A.java" />
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseV2.java" />
@@ -1049,8 +1042,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/IterateChars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="432">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
