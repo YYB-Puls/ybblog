@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day09/StringEquals.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="108" />
+          <entry key="java" value="109" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
@@ -59,7 +59,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="108" />
+          <entry key="JAVA" value="109" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
@@ -67,14 +67,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="23257" />
+          <entry key="java" value="23959" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23257" />
+          <entry key="JAVA" value="23959" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="XML" value="60" />
@@ -84,22 +84,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-              <folding>
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/TestBook.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,11 +138,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="351">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/StringEquals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -188,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/person/Customer.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/LittleSuperMarket.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/call/a.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day06/com/call/b.java" />
@@ -239,6 +231,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/MultiDArrClone.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/IterateChars.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day09/StringEquals.java" />
       </list>
     </option>
   </component>
@@ -340,7 +333,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599116068514" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599117676443" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -481,7 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubString">
+  <component name="RunManager" selected="Application.StringEquals">
     <configuration name="IterateChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day09.IterateChars" />
       <module name="JavaStudy" />
@@ -521,8 +514,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimerArrClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day09.PrimerArrClone" />
+    <configuration name="StringEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day09.StringEquals" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -610,19 +603,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrimerArrClone" />
       <item itemvalue="Application.ObjArrClone" />
       <item itemvalue="Application.MultiDArrClone" />
       <item itemvalue="Application.IterateChars" />
       <item itemvalue="Application.SubString" />
+      <item itemvalue="Application.StringEquals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringEquals" />
         <item itemvalue="Application.SubString" />
         <item itemvalue="Application.IterateChars" />
         <item itemvalue="Application.MultiDArrClone" />
         <item itemvalue="Application.ObjArrClone" />
-        <item itemvalue="Application.PrimerArrClone" />
       </list>
     </recent_temporary>
   </component>
@@ -645,7 +638,7 @@
       <workItem from="1598653418551" duration="2489000" />
       <workItem from="1598936622104" duration="12638000" />
       <workItem from="1599021791359" duration="10528000" />
-      <workItem from="1599098921624" duration="10278000" />
+      <workItem from="1599098921624" duration="11929000" />
     </task>
     <servers />
   </component>
@@ -655,7 +648,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115801000" />
+    <option name="totallyTimeSpent" value="117452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,7 +669,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.17963752" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49804688" visible="true" weight="0.17963752" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3297414" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3297414" />
@@ -687,7 +680,7 @@
       <window_info anchor="bottom" id="Messages" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.36637932" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.36637932" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.40625" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -752,7 +745,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/call/B.java" />
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/call/A.java" />
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseV2.java" />
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day06/com/geekbang/MerchandiseV2AppMain.java" />
@@ -1049,8 +1041,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/SubString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="351">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day09/StringEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
         </state>
       </provider>
     </entry>
