@@ -1,6 +1,9 @@
-package Day07;
+package Exercises.Topice04;
 
-public class Exerciess03 {
+/**
+ * 使用while语句循环与上一题相同的功能
+ */
+public class Demo03 {
     public static void main(String[] args) {
         int i = 1;
         while (i <= 9){

@@ -1,6 +1,12 @@
-package Day08;
+package Exercises.Topice05;
 
-public class Exerciess03 {
+/**
+ * 编写一个给二维数组中所有元素赋初始值的程序:创建一个二维的int数组,第一个大小为10,第二维大小为2
+ * 给这个数组中的元素赋值为1,最后使用循环语句将数组内容输出到控制台
+ *
+ * 第一题跟第二题一起
+ */
+public class Demo02 {
     public static void main(String[] args) {
         int a = 10;
         int b = 2;

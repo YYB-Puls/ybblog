@@ -1,0 +1,11 @@
+1.Eclipse中,Console视图的作用是什么?
+    Console视图是控制台,打印编写的结果
+2.Eclipse中,Prblems视图的作用是什么?
+    Prblems视图是显示项目名,文件名的 ,  可以从这里新建删除文件
+3.Eclipse中,Package Explorer视图的作用是什么?
+    Package Explorer视图的作用是显示项目的目录结构
+4.相对记事本,Eclipse中的源代码编辑器编写程序是有哪些方便之处?
+    Eclipse编写时会有提示,规范,在编写时出错给提示,自动生成.class文件
+5.按照步骤中讲述步骤,使用Eclipse创建一个叫做Exercises2的项目,并在项目中添加第一章中的HelloWorld程序.
+   程序无误后,使用Eclipse执行程序并查看程序执行结果.
+

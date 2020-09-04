@@ -2,32 +2,33 @@ package Day09;
 
 public class SubString {
     public static void main(String[] args) {
-        //目标字符串
-        String str = "ADBCDEFGH";
-        //目标字符
+        findString();
+        String result = "yuanbo".substring(3);
+        System.out.println(result);
+    }
+
+    private static void findString() {
+        //创建字符串
+        String str = "ABCDEFGH";
+        //要找到的字符
         char ch = 'C';
-        //目标字符长度
-        int len = str.length();
-        //指向结果字符串的引用
-        String result = null;
+        //字符长度
+        int changdu = str.length();
+        //储存字符串
+        String chucun = null;
         //遍历目标字符串,寻找目标字符
-        for (int i = 0; i < len ; i++){
-            //找到目标字符
-            if (ch == str.charAt(i)){
-                //使用i+1作为参数调用subString方法
-                result = str.substring(i +1);
-                //已经得到了结果,无需继续循环
+        for (int i = 0 ; i < changdu; i++){
+            //找到字符
+            if (ch == str.charAt(i )){
+                chucun = str.substring(i);
                 break;
             }
         }
         //如果结果不是null
-        if (result != null){
-            //输出结果
-            System.out.println(result);
+        if (chucun != null){
+            System.out.println(chucun);
         }else {
-            //输出没有找到字符信息
-            System.out.println("没有找到字符信息");
-
+            System.out.println("没有找到该字符");
         }
 
 
