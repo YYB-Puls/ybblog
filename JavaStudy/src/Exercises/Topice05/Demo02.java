@@ -11,7 +11,8 @@ public class Demo02 {
         int a = 10;
         int b = 2;
         int[][] ShuZu = new int[a][b];
-        // todo 这里是让你给这个二维数组所有元素赋值为1并获取数组长度（而不是写死的数字）将数组打印出来
+        // todo 请将习题二补全或者使用差量提交的方式
+        // todo 使用两个引用而不是一个引用，注意审题
         for (int i = 0; i < ShuZu.length; i++){
             for (int j = 0; j < b; j++){
                 if (ShuZu[i][j] == ShuZu[i][0] ){
