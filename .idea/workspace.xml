@@ -7,9 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice05/Demo03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice05/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice05/Demo02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/Exercises/Topice06/TestBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/Exercises/Topice06/TestBook.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> ea326ade76fe3b729c000630dc48a831e3efb323
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -277,12 +281,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="900" />
     <option name="y" value="3" />
     <option name="width" value="1022" />
     <option name="height" value="1010" />
   </component>
+=======
+  <component name="ProjectId" id="1hABVL0HmtZKx69pIPGX9veqU9l" />
+>>>>>>> ea326ade76fe3b729c000630dc48a831e3efb323
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -362,7 +370,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -555,10 +563,30 @@
       <workItem from="1599021791359" duration="10528000" />
       <workItem from="1599098921624" duration="15220000" />
       <workItem from="1599200938190" duration="11784000" />
+<<<<<<< HEAD
       <workItem from="1599441752830" duration="1397000" />
+=======
+      <workItem from="1599444042986" duration="1937000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix#修改前五章的作业，查看作业批注点开idea底部的Todo视图">
+      <created>1599441711876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599441711876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix#完成前六章的作业批改">
+      <created>1599442830946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599442830946</updated>
+>>>>>>> ea326ade76fe3b729c000630dc48a831e3efb323
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="All_Features_in__WebServlet - 2020.08.20 at 11h 00m 33s.xml">
       <configuration name="All Features in: WebServlet" configurationId="CucumberJavaRunConfigurationType" />
@@ -613,6 +641,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
+=======
+>>>>>>> ea326ade76fe3b729c000630dc48a831e3efb323
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -642,8 +672,15 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix#修改前五章的作业，查看作业批注点开idea底部的Todo视图" />
+    <MESSAGE value="Fix#完成前六章的作业批改" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix#完成前六章的作业批改" />
+>>>>>>> ea326ade76fe3b729c000630dc48a831e3efb323
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
