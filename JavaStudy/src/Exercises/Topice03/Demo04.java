@@ -10,7 +10,12 @@ public class Demo04 {
     public static void main(String[] args) {
         double a = 8.0;
         double b = 9.5;
-        boolean c = a==b;
+        double c = 0;
+        if (a > b){
+            c = a;
+        }else {
+            c = b;
+        }
         // todo 比大小不是比相等
         System.out.println("c的值是:"+c);
     }
