@@ -6,11 +6,18 @@ package Exercises.Topice04;
 public class Demo03 {
     public static void main(String[] args) {
         int i = 1;
+
+
         while (i <= 9){
             System.out.print(i+"\t");
             // todo 表达式太长，请使用while精简
-            System.out.println(2*i+"\t"+3*i+"\t"+4*i+"\t"+5*i+"\t"+6*i+"\t"+7*i+"\t"+8*i+"\t"+9*i);
+            for (int j = 2; j <=9; j++){
+                System.out.print(j*i+"\t");
+            }
+            System.out.println();
+            /*System.out.println(2*i+"\t"+3*i+"\t"+4*i+"\t"+5*i+"\t"+6*i+"\t"+7*i+"\t"+8*i+"\t"+9*i);*/
             i ++;
+
         }
     }
 }
