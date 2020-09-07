@@ -337,7 +337,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599497637983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599497836701" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -484,7 +484,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo01">
+  <component name="RunManager" selected="Application.Demo04">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercises.Topice04.Demo01" />
       <module name="JavaStudy" />
@@ -511,8 +511,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Topice03.Demo03" />
+    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Topice03.Demo04" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -613,19 +613,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo03" />
       <item itemvalue="Application.UsingSringBuffer" />
       <item itemvalue="Application.UseStaticMathod" />
       <item itemvalue="Application.Demo03 (1)" />
       <item itemvalue="Application.Demo01" />
+      <item itemvalue="Application.Demo04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo04" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Demo03 (1)" />
         <item itemvalue="Application.UseStaticMathod" />
         <item itemvalue="Application.UsingSringBuffer" />
-        <item itemvalue="Application.Demo03" />
       </list>
     </recent_temporary>
   </component>
