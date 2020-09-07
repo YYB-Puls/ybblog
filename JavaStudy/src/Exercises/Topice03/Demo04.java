@@ -11,6 +11,7 @@ public class Demo04 {
         double a = 8.0;
         double b = 9.5;
         boolean c = a==b;
+        // todo 比大小不是比相等
         System.out.println("c的值是:"+c);
     }
 }
