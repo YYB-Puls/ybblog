@@ -5,6 +5,11 @@ import java.util.Scanner;
 
 /**
  * todo 题目呢？
+ *编写一个商场用来计算优惠劵的程序:创建一个变量totalCost表示用户消费金额
+ * 给totalCost赋值后,使用if-else语句计算客户可以获得的优惠劵,计算规则为:
+ *   当前消费金额大于等于200,小于300的时候,可获得20元优惠劵
+ *   当前消费金额大于等于300,小于500的时候,可获得50元优惠劵
+ *   当前消费大于等于500,可以获得100元打折卡
  */
 public class Demo01 {
     public static void main(String[] args) {
