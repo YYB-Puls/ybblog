@@ -3,6 +3,9 @@ package Exercises.Topice04;
 
 import java.util.Scanner;
 
+/**
+ * todo 题目呢？
+ */
 public class Demo01 {
     public static void main(String[] args) {
         int totalCost;
