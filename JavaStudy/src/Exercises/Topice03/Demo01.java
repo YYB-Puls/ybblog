@@ -10,7 +10,6 @@ public class Demo01 {
         int b = 7;
         int c = (a*a)  + (b*b);
 
-        // todo 需要计算平方和而不是完全平方和
         System.out.println("a和b的平方和是:"+c);
     }
 }
