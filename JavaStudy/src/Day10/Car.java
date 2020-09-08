@@ -7,6 +7,8 @@ public class Car {
     public String name;
     //汽车颜色
     public String color;
+
+
     //汽车提速的方法,参数是汽车需要添加的速度
     public void speedUp(int p_speed){
         if (p_speed > 0){
@@ -23,6 +25,6 @@ public class Car {
                 speed = tempSpeed;
             }
         }
-
     }
+
 }
