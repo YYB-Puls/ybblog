@@ -14,12 +14,22 @@ public class Car {
         System.out.println("Car类的无参构造方法被调用了");
     }
 
+
     public Car(String color ,int maxSpeed , String name , int speed , int amout){
         this.color = color;
         this.maxSpeed = maxSpeed;
         this.name = name;
         this.speed = speed;
         System.out.println("Car类的有参构造方法被调用了");
+    }
+
+    public void followSpeed(Car car){
+        int newSpeed = car.speed;
+        if (newSpeed > speed){
+            speedUp(newSpeed - this.speed);
+        }else {
+            slowDown(this.speed - newSpeed);
+        }
     }
 
     //给汽车加速的方法
