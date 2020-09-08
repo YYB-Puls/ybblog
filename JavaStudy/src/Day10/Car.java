@@ -7,15 +7,23 @@ public class Car {
     public String name;
     //汽车颜色
     public String color;
+    //最大速度限制
+    public int maxSpeed = 35;
 
 
-    //汽车提速的方法,参数是汽车需要添加的速度
+    //给汽车加速的方法
     public void speedUp(int p_speed){
+        int tempSpeed = 0;
         if (p_speed > 0){
-            speed += p_speed;
+            tempSpeed = speed + p_speed;
+        }
+        //增加了判断速度是否超过最大
+        if (tempSpeed <= maxSpeed){
+            //速度限制代码;
+            speed = tempSpeed;
         }
     }
-    //汽车减速的方法,参数是汽车需要减少的速度
+    //给汽车减速的方法
     public void slowDown(int p_speed){
         //如果p_speed大于0,则计算新的速度
         if (p_speed > 0){
