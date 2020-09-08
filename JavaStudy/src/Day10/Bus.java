@@ -2,7 +2,7 @@ package Day10;
 
 public class Bus extends Car{
     //专门为公共汽车增加的3个属性
-    public boolean isBus;
+    public boolean isBus = true;
     //最大乘客数
     public int max_Passenger = 35;
     //当前乘客数

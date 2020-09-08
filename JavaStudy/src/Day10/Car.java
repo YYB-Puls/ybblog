@@ -2,13 +2,13 @@ package Day10;
 
 public class Car {
     //汽车速度
-    public int speed;
+    public int speed ;
     //汽车名字
     public String name;
     //汽车颜色
     public String color;
     //最大速度限制
-    public int maxSpeed = 35;
+    public int maxSpeed = 90;
 
 
     //给汽车加速的方法
