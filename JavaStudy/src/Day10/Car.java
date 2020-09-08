@@ -10,6 +10,17 @@ public class Car {
     //最大速度限制
     public int maxSpeed = 90;
 
+    public Car (){
+        System.out.println("Car类的无参构造方法被调用了");
+    }
+
+    public Car(String color ,int maxSpeed , String name , int speed , int amout){
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+        this.name = name;
+        this.speed = speed;
+        System.out.println("Car类的有参构造方法被调用了");
+    }
 
     //给汽车加速的方法
     public void speedUp(int p_speed){

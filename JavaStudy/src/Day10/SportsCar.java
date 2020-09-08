@@ -3,6 +3,34 @@ package Day10;
 public class SportsCar extends Car{
     //保存氮气的剩余量
     public int  nAmount = 90;
+    //每次加速的使用氮气量
+    public int autoUsingN = 5;
+
+    public SportsCar(){
+        System.out.println("SportsCar类的无参构造方法被调用了");
+    }
+
+    public SportsCar(String color ,int maxSpeed , String name , int speed , int amout){
+        super(color,maxSpeed,name,speed,amout);
+        nAmount =amout;
+        System.out.println("SportsCar类有参构造方法被调用了   ");
+    }
+
+    //SportsCar类特有的方法
+    public void speedUp(int p_speed){
+        int tempSpeed  = 0;
+        if (p_speed > 0){
+            tempSpeed =speed + p_speed;
+        }
+        if (tempSpeed <= maxSpeed){
+            speed = tempSpeed;
+        }
+        if (nAmount >= autoUsingN){//判断剩余氮气量是否大于一次加速应该使用的氮气量
+            nAmount -= autoUsingN;
+        }else {
+            nAmount = 0;//不够则剩余多少用多少
+        }
+    }
 
     //使用氮气来让汽车加速的方法,代码中会首先根据剩余的氮气量来计算本次使用的氮气量
     public void speedUpUsingN(int p_amout){
@@ -23,6 +51,8 @@ public class SportsCar extends Car{
         int speedUp = (int ) (realAmount * 0.25);
         speed += speedUp;
     }
+
+
     //增加氮气
     public void addN(int p_amout){
         //如果需要增加的氮气小于0,则什么都不做
