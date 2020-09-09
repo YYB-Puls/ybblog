@@ -6,4 +6,5 @@ public class ExlectronicBus extends  Car {
         System.out.println("ExlectronicBus类的无参构造方法被调用了 ");
     }
 
+
 }

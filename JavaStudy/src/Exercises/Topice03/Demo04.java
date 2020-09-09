@@ -13,6 +13,10 @@ public class Demo04 {
         boolean c = a > b;
 
         // todo 比大小不是比相等
-        System.out.println("c大于b:"+c);
+        if (c){
+            System.out.println("a大于b");
+        }else{
+            System.out.println("b大于a");
+        }
     }
 }
