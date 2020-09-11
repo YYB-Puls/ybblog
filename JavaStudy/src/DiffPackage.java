@@ -1,10 +1,8 @@
-package Day11;
+import Day11.AccessMethods;
 
-public class SamePackage {
-    //同一包中访问该方法
+public class DiffPackage {
     public void usingPublicMethod(){
         AccessMethods accessMethods = new AccessMethods();
         accessMethods.publicMethod();
     }
-
 }
