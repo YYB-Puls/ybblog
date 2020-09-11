@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/TestStaticMethodll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +54,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="212" />
+          <entry key="java" value="213" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
@@ -63,7 +63,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="212" />
+          <entry key="JAVA" value="213" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
@@ -71,14 +71,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="32" />
-          <entry key="java" value="37197" />
+          <entry key="java" value="37380" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37197" />
+          <entry key="JAVA" value="37380" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="XML" value="60" />
@@ -127,11 +127,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/TestStaticMethodll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="405">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -150,21 +159,6 @@
                 <element signature="e#386#387#0" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#503#504#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/UsingFinalInMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-              <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -233,7 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice09/Exercise2.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice09/Exercise3.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day10/Bus.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day10/UseExtends.java" />
@@ -284,6 +277,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/TestStaticMethod.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/TestOverride.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/TestStaticMethodll.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java" />
       </list>
     </option>
   </component>
@@ -372,7 +366,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599798926153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599799299143" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -517,10 +511,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestStaticMethodll">
-    <configuration name="ArrayExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayExercise" />
+  <component name="RunManager" selected="Application.ChangSpeed">
+    <configuration name="ChangSpeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.ChangSpeed" />
       <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -640,19 +640,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayExercise" />
       <item itemvalue="Application.TestOverride" />
       <item itemvalue="Application.UsingMath" />
       <item itemvalue="Application.TestStaticMethod" />
       <item itemvalue="Application.TestStaticMethodll" />
+      <item itemvalue="Application.ChangSpeed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChangSpeed" />
         <item itemvalue="Application.TestStaticMethodll" />
         <item itemvalue="Application.TestStaticMethod" />
         <item itemvalue="Application.UsingMath" />
         <item itemvalue="Application.TestOverride" />
-        <item itemvalue="Application.ArrayExercise" />
       </list>
     </recent_temporary>
   </component>
@@ -681,7 +681,7 @@
       <workItem from="1599636141989" duration="764000" />
       <workItem from="1599637309836" duration="12709000" />
       <workItem from="1599712801702" duration="11901000" />
-      <workItem from="1599790580891" duration="7592000" />
+      <workItem from="1599790580891" duration="7834000" />
     </task>
     <servers />
   </component>
@@ -691,7 +691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174135000" />
+    <option name="totallyTimeSpent" value="174377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,13 +788,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day10/UseCarGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day10/UseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1194,8 +1187,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/TestStaticMethodll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="405">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
