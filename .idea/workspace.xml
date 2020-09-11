@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/TestVariableOverride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day11/ParentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/ParentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day11/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/SubClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="214" />
+          <entry key="java" value="215" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
@@ -63,7 +65,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="214" />
+          <entry key="JAVA" value="215" />
           <entry key="JSP" value="6" />
           <entry key="XML" value="2" />
         </counts>
@@ -71,14 +73,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="32" />
-          <entry key="java" value="37754" />
+          <entry key="java" value="38237" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37754" />
+          <entry key="JAVA" value="38237" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="XML" value="60" />
@@ -91,13 +93,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/ParentClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="243">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
-                <element signature="e#79#80#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,14 +107,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/SubClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="135">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/TestVariableOverride.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -136,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="-81">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
@@ -184,19 +191,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/StaticMethodClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding>
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/SimpleCar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -233,7 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day10/Bus.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day10/UseExtends.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day10/Test.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day10/SportsCar.java" />
@@ -277,13 +270,14 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/StaticMethodClass.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/SimpleCar.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/UsingMath.java" />
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day11/ParentClass.java" />
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day11/SubClass.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/TestStaticMethod.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/TestOverride.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/TestStaticMethodll.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/ChangSpeed.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day11/ParentClass.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day11/SubClass.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Day11/TestVariableOverride.java" />
       </list>
     </option>
   </component>
@@ -372,7 +366,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599799642184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599800733386" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -517,22 +511,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChangSpeed">
+  <component name="RunManager" selected="Application.TestVariableOverride">
     <configuration name="ChangSpeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day11.ChangSpeed" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.TestOverride" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -559,6 +540,19 @@
     </configuration>
     <configuration name="TestStaticMethodll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day11.TestStaticMethodll" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVariableOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.TestVariableOverride" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -646,19 +640,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestOverride" />
       <item itemvalue="Application.UsingMath" />
       <item itemvalue="Application.TestStaticMethod" />
       <item itemvalue="Application.TestStaticMethodll" />
       <item itemvalue="Application.ChangSpeed" />
+      <item itemvalue="Application.TestVariableOverride" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVariableOverride" />
         <item itemvalue="Application.ChangSpeed" />
         <item itemvalue="Application.TestStaticMethodll" />
         <item itemvalue="Application.TestStaticMethod" />
         <item itemvalue="Application.UsingMath" />
-        <item itemvalue="Application.TestOverride" />
       </list>
     </recent_temporary>
   </component>
@@ -687,7 +681,7 @@
       <workItem from="1599636141989" duration="764000" />
       <workItem from="1599637309836" duration="12709000" />
       <workItem from="1599712801702" duration="11901000" />
-      <workItem from="1599790580891" duration="8419000" />
+      <workItem from="1599790580891" duration="9238000" />
     </task>
     <servers />
   </component>
@@ -697,7 +691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174962000" />
+    <option name="totallyTimeSpent" value="175781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,13 +788,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day10/ExlectronicBus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice06/TestBook2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1127,32 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/ParentClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/SubClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/TestOverride.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1200,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/CarBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="-81">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
@@ -1212,6 +1173,35 @@
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/ParentClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/TestVariableOverride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
