@@ -1,6 +1,6 @@
 package Day10;
 
-public class SportsCar extends Car{
+public class SportsCar extends CarBase {
     //保存氮气的剩余量
     public int  nAmount = 90;
     //每次加速的使用氮气量
@@ -9,16 +9,22 @@ public class SportsCar extends Car{
     public SportsCar(){
         System.out.println("SportsCar类的无参构造方法被调用了");
     }
-
     public SportsCar(String color ,int maxSpeed , String name , int speed , int amout){
-        super(color,maxSpeed,name,speed,amout);
+        super(color,maxSpeed,name,speed);
         nAmount =amout;
         System.out.println("SportsCar类有参构造方法被调用了   ");
     }
 
     //SportsCar类特有的方法
     public void speedUp(int p_speed){
-        int tempSpeed  = 0;
+        System.out.println("SportsCar类中定义的SpeedUp(int)方法被调用了");
+        if (nAmount >= autoUsingN){
+            nAmount -= autoUsingN;
+        }else {
+            nAmount = 0;
+        }
+        super.speedUp(p_speed );
+        /*int tempSpeed  = 0;
         if (p_speed > 0){
             tempSpeed =speed + p_speed;
         }
@@ -29,7 +35,7 @@ public class SportsCar extends Car{
             nAmount -= autoUsingN;
         }else {
             nAmount = 0;//不够则剩余多少用多少
-        }
+        }*/
     }
 
     //使用氮气来让汽车加速的方法,代码中会首先根据剩余的氮气量来计算本次使用的氮气量

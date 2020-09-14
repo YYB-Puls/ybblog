@@ -2,11 +2,11 @@ package Day10;
 
 public class CarGroup {
     //领车队
-    public Car leadingCar;
+    public CarBase leadingCar;
     //随车队
-    public Car[] followingCars;
+    public CarBase[] followingCars;
 
-    public CarGroup(Car leadingCar, Car[] followingCars){
+    public CarGroup(CarBase leadingCar, CarBase[] followingCars){
         this.leadingCar = leadingCar;
         this.followingCars = followingCars;
     }

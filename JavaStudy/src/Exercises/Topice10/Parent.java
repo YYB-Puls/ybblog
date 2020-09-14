@@ -17,7 +17,7 @@ public class Parent {
     }
 
     /**
-     * 联系覆盖的方法:编写一个静态方法invokMethods,参数为
+     * 2.联系覆盖的方法:编写一个静态方法invokMethods,参数为
      * parent类的引用,方法中首先使用instanceof判断参数指向对象所
      * 属的类,然后调用method1()方法和method2()方法
      * 然后编写一个程序,分别使用Parent类的实例和Child实例为参数
