@@ -2,7 +2,7 @@ package Day12;
 
 
 public class LogCarOnAStreet {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         CarBase car = null;
         car = new CarBase("红色","天津大发",0);
 
@@ -16,5 +16,5 @@ public class LogCarOnAStreet {
 
         car.speedUp(70);
         CarRecoder.recordCar(car);
-    }
+    }*/
 }
