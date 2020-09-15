@@ -1,7 +1,5 @@
 package Day12;
 
-import sun.plugin2.message.GetAppletMessage;
-
 public class CarBase {
     //汽车速度
     public int speed ;
@@ -10,8 +8,8 @@ public class CarBase {
     //汽车颜色
     public String color;
     //最大速度限制
-    public CarStatus getCarStatus(){
-        CarStatus carStatus = new CarStatus(name, speed);
+    public TransportStatus getCarStatus(){
+        TransportStatus carStatus = new TransportStatus(name, speed);
         return carStatus;
     }
     public int getSpeed(){

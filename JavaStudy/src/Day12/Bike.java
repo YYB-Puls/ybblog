@@ -4,8 +4,8 @@ public class Bike {
     private int speed ;
     private String name;
 
-    public CarStatus getBikeStatus(){
-        CarStatus carStatus = new CarStatus(name ,speed );
+    public TransportStatus getBikeStatus(){
+        TransportStatus carStatus = new TransportStatus(name ,speed );
         return carStatus;
     }
 

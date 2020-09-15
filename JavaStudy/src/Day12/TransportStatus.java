@@ -1,10 +1,10 @@
 package Day12;
 
-public class CarStatus {
+public class TransportStatus {
     private String name;    //用于记录经过车辆的名字
     private int speed;      //用于记录经过车辆的速度
 
-    public CarStatus(String name , int speed){
+    public TransportStatus(String name , int speed){
         this.name = name;
         this.speed = speed;
     }
