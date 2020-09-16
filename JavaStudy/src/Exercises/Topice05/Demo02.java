@@ -9,7 +9,6 @@ public class Demo02 {
     public static void main(String[] args) {
 
         int[][] ShuZu = new int[10][2];
-        // todo 使用两个引用而不是一个引用，注意审题
         for (int i = 0; i < ShuZu.length; i++){
             for (int j = 0; j < 2; j++){
                 if (ShuZu[i][j] == ShuZu[i][0] ){

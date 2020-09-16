@@ -12,7 +12,6 @@ public class Demo04 {
         double b = 9.5;
         boolean c = a > b;
 
-        // todo 比大小不是比相等
         if (c){
             System.out.println("a大于b");
         }else{
