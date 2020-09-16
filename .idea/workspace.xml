@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/DiffPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/SamePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/SubClassInDiffPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/SubClassInSamePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/TestOverride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Day11/AccessMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Day11/AccessMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +106,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/AccessMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="294">
               <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
@@ -310,7 +303,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="900" />
     <option name="y" value="3" />
     <option name="width" value="1022" />
@@ -405,7 +398,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600263867417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600271801767" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -616,7 +609,7 @@
       <workItem from="1599790580891" duration="15286000" />
       <workItem from="1600001774183" duration="652000" />
       <workItem from="1600063080663" duration="33369000" />
-      <workItem from="1600256336698" duration="6032000" />
+      <workItem from="1600256336698" duration="6628000" />
     </task>
     <servers />
   </component>
@@ -626,7 +619,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221882000" />
+    <option name="totallyTimeSpent" value="222478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,7 +631,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1062" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019531" side_tool="true" weight="0.25266525" />
@@ -1126,7 +1119,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day11/AccessMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="294">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />

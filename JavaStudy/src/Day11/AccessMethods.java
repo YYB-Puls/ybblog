@@ -21,5 +21,7 @@ public class AccessMethods {
      private void usingMethod(){
         //this关键字调用方法
         this.publicMethod();
+        this.protectdMethod();
+        this.defaultMethod();
     }
 }

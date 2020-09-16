@@ -1,8 +1,9 @@
 package Day11;
 
 public class DiffPackage {
-    public static void main(String[] args) {
+    public void suingPublicMethod(){
         AccessMethods methods = new AccessMethods();
         methods.publicMethod();
+        methods.defaultMethod();
     }
 }

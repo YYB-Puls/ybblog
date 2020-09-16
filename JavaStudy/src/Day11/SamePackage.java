@@ -9,6 +9,6 @@ public class SamePackage {
     public void suingPublicMethod(){
         AccessMethods methods = new AccessMethods();
         methods.publicMethod();
-        methods.protectdMethod();
+        methods.defaultMethod();
     }
 }
