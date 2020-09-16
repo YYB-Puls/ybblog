@@ -15,7 +15,6 @@ public class Demo01 {
         int totalCost;
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入消费的金额");
-        //todo 注意审题，if else语句而不是if
         int consume = scanner.nextInt();
         if (consume >= 200 && consume < 300) {
             totalCost = consume - 20;
