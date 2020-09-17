@@ -8,8 +8,12 @@ public class CarBase {
     //汽车颜色
     public String color;
     //最大速度限制
-    public TransportStatus getCarStatus(){
+    /*public TransportStatus getCarStatus(){
         TransportStatus carStatus = new TransportStatus(name, speed);
+        return carStatus;
+    }*/
+    public CarStatus getCarStatus(){
+        CarStatus carStatus = new CarStatus(name,speed);
         return carStatus;
     }
     public int getSpeed(){
@@ -26,7 +30,7 @@ public class CarBase {
         System.out.println("CarBus类的构造方法被调用了");
     }
 
-    public CarBase(String color, int maxSpeed, String name, int speed){
+    public CarBase(String color,  String name, int speed){
         this.speed = speed;
         this.color = color;
         this.maxSpeed = maxSpeed;

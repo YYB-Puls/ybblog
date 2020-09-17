@@ -27,8 +27,8 @@ public class Bus extends CarBase {
         }
     }
 
-    public Bus(String color, int maxSpeed, String name, int speed,int max_Passenger, int current_Passenger){
-        super(color , maxSpeed , name ,speed);
+    public Bus(String color,  String name, int speed,int max_Passenger, int current_Passenger){
+        super(color , name ,speed);
         this.max_Passenger = max_Passenger;
         this.current_Passenger = current_Passenger;
         System.out.println("Bus类的有参构造方法被调用了");

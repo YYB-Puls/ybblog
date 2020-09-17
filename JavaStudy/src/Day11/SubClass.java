@@ -1,9 +1,17 @@
 package Day11;
 
 public class SubClass extends ParentClass {
-    public int overrideValue;
+
+    public static void staticMethod(){
+        System.out.println("这是SubClass类的staticMethod()方法");
+    }
+
+    public void commonMethod(){
+        System.out.println("这是SubClass类的commonMethod()方法");
+    }
+    /*public int overrideValue;
 
     public SubClass(){
         overrideValue = 9;
-    }
+    }*/
 }

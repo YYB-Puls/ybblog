@@ -5,4 +5,6 @@ public class SubClassInSamePackage extends AccessMethods {
         super.publicMethod();
     }
     public void protectedMethod(){}
+
+
 }

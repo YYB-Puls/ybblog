@@ -23,5 +23,6 @@ public class AccessMethods {
         this.publicMethod();
         this.protectdMethod();
         this.defaultMethod();
+        this.privateMethod();
     }
 }

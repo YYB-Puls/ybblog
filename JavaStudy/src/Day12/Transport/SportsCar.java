@@ -12,7 +12,7 @@ public class SportsCar extends CarBase {
         System.out.println("SportsCar类的无参构造方法被调用了");
     }
     public SportsCar(String color , int maxSpeed , String name , int speed , int amout){
-        super(color,maxSpeed,name,speed);
+        super(color,name,speed);
         nAmount =amout;
         System.out.println("SportsCar类有参构造方法被调用了   ");
     }

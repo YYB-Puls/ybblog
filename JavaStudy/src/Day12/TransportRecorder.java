@@ -10,7 +10,7 @@ public class TransportRecorder {
             TransportStatus status  = null;
             if (transporrObj instanceof  CarBase){
                 CarBase carBase = (CarBase) transporrObj;
-                status = carBase .getCarStatus();
+                /*status = carBase .getCarStatus();*/
             }else if (transporrObj instanceof  Bike){
                 Bike bike = (Bike) transporrObj;
                 status = bike.getBikeStatus();
