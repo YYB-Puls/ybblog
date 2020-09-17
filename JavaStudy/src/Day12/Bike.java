@@ -1,6 +1,6 @@
 package Day12;
 
-public class Bike {
+public class Bike  {
     private int speed ;
     private String name;
 

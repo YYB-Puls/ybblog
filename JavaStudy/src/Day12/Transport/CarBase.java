@@ -36,10 +36,10 @@ public class CarBase implements RecordeAble {
         System.out.println("CarBus类的构造方法被调用了");
     }
 
-    public CarBase(String color, int maxSpeed, String name, int speed){
+    public CarBase(String color,  String name, int speed){
         this.speed = speed;
         this.color = color;
-        this.maxSpeed = maxSpeed;
+
         this.name = name;
         System.out.println("CarBus类的有参构造方法被调用了");
     }
