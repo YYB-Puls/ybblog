@@ -13,14 +13,16 @@ public class Exercise2 {
     public static void  useMyInterface(MyInterface myInterface){
         //方法中首先使用instanceof判断参数指向的对象所属的类,
         if (myInterface instanceof MyImpl1){
+            MyImpl1 myImpl1 = (MyImpl1) myInterface;
             System.out.println("myInterface指向的对象MyImpl1是同一个类型的实例");
-            myInterface.method1();
-            myInterface.method2();
+            myImpl1.method1();
+            myImpl1.method2();
         }
         if (myInterface instanceof  MyImpl2){
+            MyImpl2 myImpl2 = (MyImpl2)myInterface;
             System.out.println("myInterface指向的对象MyImpl2是同一个类型的实例");
-            myInterface.method1();
-            myInterface.method2();
+            myImpl2.method1();
+            myImpl2.method2();
         }
     }
 }
