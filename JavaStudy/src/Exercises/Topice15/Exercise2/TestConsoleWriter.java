@@ -7,8 +7,8 @@ public class TestConsoleWriter {
         ConsoleWriter consoleWriter = new ConsoleWriter();
 
         //启动两个MyWriter类的实例,让它们使用同一个ConsoleWriter类的实例,启动两个MyWriter,查看控制台输出
-        MyWriter myWriter1 = new MyWriter();
-        MyWriter myWriter2 = new MyWriter();
+        MyWriter myWriter1 = new MyWriter(consoleWriter,"线程1");
+        MyWriter myWriter2 = new MyWriter(consoleWriter,"线程2");
         myWriter1.start();
         myWriter2.start();
     }
