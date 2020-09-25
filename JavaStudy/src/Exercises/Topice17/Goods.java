@@ -1,6 +1,7 @@
 package Exercises.Topice17;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * 编写一个Goods类,类中有两个String类型的属性id和name
@@ -18,6 +19,15 @@ public class Goods {
         System.out.println("商品编号为:"+goods.getId());
     }
 
+    public static void printSer(Set set){
+        Object[] elemp = set.toArray();
+        int size = elemp.length;
+        for (int i = 0; i < size; i++){
+            System.out.print("第"+i+"个对象:"+elemp[i]);
+        }
+        System.out.println();
+    }
+
     public Goods(String name , String id){
         this.id = id;
         this.name = name;
@@ -25,17 +35,17 @@ public class Goods {
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return 1 % 10;
     }
 
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+        return (this == obj);
     }
 
     @Override
     public String toString() {
-        return super.toString();
+        return "商品:"+name+",商品编号:"+id;
     }
 
     public String getName() {
