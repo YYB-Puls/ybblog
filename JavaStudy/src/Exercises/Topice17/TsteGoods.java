@@ -7,11 +7,15 @@ public class TsteGoods {
     public static void main(String[] args) {
         //test1();
         //test2();
-        //test3();
+        test3();
         /**
          * 字符串与字节数组的转换:将一个字符串转换为一个字节数组,然后在使用这个字节数组生成一个字符串
          * 最后将生成出的字符串输出到控制台
          */
+        //test4();
+    }
+
+    private static void test4() {
         Scanner input = new Scanner(System.in);
 
         String string = "请输入字符串";
