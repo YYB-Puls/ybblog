@@ -9,6 +9,10 @@ import java.io.IOException;
  *      输出创建文件的结果
  */
 public class DataFile {
+    // todo 通过命令行，你这里是写死的，不符合题目要求
+    // todo 如果文件夹存在需要重新运行一遍而不是可以直接判断文件是否存在，因此需要优化
+    // todo 正常逻辑应该是判断文件夹存在则判断文件存在而不是只判断一个就不判断了
+    // todo 同时你这里并没有判断文件存在就创建了，而且没有判断文件创建结果就提示成功，有问题
     public static void main(String[] args) {
         String forPath = "D:"+File.separator+"DataFile";
         String fileName = "DataFile.txt";

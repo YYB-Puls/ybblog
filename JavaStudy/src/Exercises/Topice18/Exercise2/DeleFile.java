@@ -6,7 +6,7 @@ import java.nio.file.Path;
 /**
  * 习题2:
  *      删除文件:通过命令行接收文件路径,在程序中将这个文件夹中的所有文件删除,
- *
+ *    // todo 通过命令行，你这里是写死的，不符合题目要求
  */
 public class DeleFile {
     public static void main(String[] args) {
@@ -20,6 +20,7 @@ public class DeleFile {
                 System.out.println("删除成功");
             }else {
                 System.out.println("删除失败");
+                // todo 多留意ide的提示，这里这个continue有啥用呢
                 continue;
             }
         }

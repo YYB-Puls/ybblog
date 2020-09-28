@@ -10,6 +10,7 @@ import java.io.*;
  */
 public class CopyFile {
     public static void main(String[] args) {
+        // todo 通过命令行，你这里是写死的，不符合题目要求
         File formerFile = new File("D:\\dateFile.txt");
         imput(formerFile);
         out();
@@ -29,7 +30,7 @@ public class CopyFile {
                 return;
             }
         }
-        try {
+        try {// todo 你试着用这个程序复制一个超过1024的记事本，记得自测，自测很重要
             String content = imput(formerFile);
             FileOutputStream fos = new FileOutputStream(content);
             byte[] bytes = content.getBytes();
@@ -46,11 +47,12 @@ public class CopyFile {
             System.out.println("开始读取数据!");
         }else {
             System.out.println("未找到文件!");
-
+// todo 找不到文件还能继续往下读取啥呢？
         }
         System.out.print("文件内容:");
         String content = null;
         try {
+            // todo 如果你的文件内容超过1024个字，你会发现后面的你打印不出来，因为你这个功能不能读取文件全部内容
             FileInputStream fis = new FileInputStream(file);
             byte[] bytes = new byte[1024];
             int len = fis.read(bytes);
@@ -59,6 +61,7 @@ public class CopyFile {
             fis.close();
         }catch (FileNotFoundException e){
             System.out.println("找不到文件,错误信息:"+e.getMessage());
+            // todo 目标文件不存在也没有按要求创建
         }catch (IOException e){
             e.printStackTrace();
         }
