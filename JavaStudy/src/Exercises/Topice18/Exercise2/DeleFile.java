@@ -21,7 +21,7 @@ public class DeleFile {
             }else {
                 System.out.println("删除失败");
                 // todo 多留意ide的提示，这里这个continue有啥用呢
-                continue;
+
             }
         }
     }

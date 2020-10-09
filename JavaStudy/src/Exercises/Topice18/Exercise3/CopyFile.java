@@ -46,7 +46,7 @@ public class CopyFile {
         if (file.isFile() ){
             System.out.println("开始读取数据!");
         }else {
-            System.out.println("未找到文件!");
+            return "未找到文件!";
 // todo 找不到文件还能继续往下读取啥呢？
         }
         System.out.print("文件内容:");
