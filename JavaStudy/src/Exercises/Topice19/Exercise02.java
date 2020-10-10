@@ -6,5 +6,5 @@ package Exercises.Topice19;
  *          程序读取文件内容,并通过tcp协议将文件内容发送到指定ip的9999端口
  */
 public class Exercise02 {
-        
+
 }
