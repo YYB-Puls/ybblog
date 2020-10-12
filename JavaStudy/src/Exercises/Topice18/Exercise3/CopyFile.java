@@ -47,7 +47,6 @@ public class CopyFile {
             System.out.println("开始读取数据!");
         }else {
             return "未找到文件!";
-// todo 找不到文件还能继续往下读取啥呢？
         }
         System.out.print("文件内容:");
         String content = null;
@@ -61,7 +60,7 @@ public class CopyFile {
             fis.close();
         }catch (FileNotFoundException e){
             System.out.println("找不到文件,错误信息:"+e.getMessage());
-            // todo 目标文件不存在也没有按要求创建
+            // todo 目标文件不存在也没有按要求创建（题目：如果目标文件不存在则首先创建目录文件？？？）
         }catch (IOException e){
             e.printStackTrace();
         }
