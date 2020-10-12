@@ -2,7 +2,7 @@ package Exercises.Topice10;
 
 public class TestParent {
     public static void main(String[] args) {
-        //todo 题目中的意思是让你在测试类中编写静态方法，菲特苏说明在对象类钟编写静态方法是不规范的
+        //todo 题目中的意思是让你在测试类中编写静态方法，说明在对象类钟编写静态方法是不规范的
         //然后编写一个程序,分别使用Parent类的实例和Child实例为参数调用invokeMethods()方法
         Parent parent = new Parent();
         invokeMethods(parent);

@@ -6,5 +6,7 @@ package Exercises.Topice19;
  *          程序读取文件内容,并通过tcp协议将文件内容发送到指定ip的9999端口
  */
 public class Exercise02 {
+    // 1. 从命令行读取两个参数,第一个参数为文件路径,第二个参数为远程ip地址
 
+    // 2. 参照练习题1，
 }

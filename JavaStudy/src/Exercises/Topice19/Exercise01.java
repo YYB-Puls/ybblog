@@ -12,6 +12,7 @@ import java.net.UnknownHostException;
  * 19章第1题
  * 接收数据
  *      要求:通过使用tcp协议,在端口9999监听,建立连接之后将所有接收到的数据保存到一个文件中
+ *      todo 这个程序只实现了接收但是没有实现发送，你没办法测试的
  *
  */
 public class Exercise01 {
@@ -23,6 +24,7 @@ public class Exercise01 {
             System.out.println("已有客户端连接,接收数据中......");
             InputStream in = s.getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
+            // todo 这个功能只能实现发一行吧？你需要让他能一直接收
             String respons = br.readLine();
             System.out.println(respons);
             File dataFile = new File("D:\\Exercie.txt");
