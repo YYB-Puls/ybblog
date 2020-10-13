@@ -1,12 +1,11 @@
 package Exercises.Topice19;
 
-import Day19.learnsockettcp.Server;
-import Exercises.Topice18.Exercise1.DataFile;
-
 import java.io.*;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.Scanner;
 
 /**
  * 19章第1题
@@ -16,26 +15,45 @@ import java.net.UnknownHostException;
  *
  */
 public class Exercise01 {
+    private static boolean isRun = false;
+    private static BufferedReader br;
+    private static BufferedWriter bw;
     public static void main(String[] args) {
+        start();
+        stop();
+    }
+
+    private static void stop(){
+        isRun = false;
         try {
-            ServerSocket ss = new ServerSocket(9999);
-            System.out.println("服务端在9999端口监听......");
-            Socket s = ss.accept();
-            System.out.println("已有客户端连接,接收数据中......");
-            InputStream in = s.getInputStream();
-            BufferedReader br = new BufferedReader(new InputStreamReader(in));
-            // todo 这个功能只能实现发一行吧？你需要让他能一直接收
-            String respons = br.readLine();
-            System.out.println(respons);
-            File dataFile = new File("D:\\Exercie.txt");
-            dataFile.createNewFile();
-            System.out.println("创建文件");
-            PrintWriter pw = new PrintWriter(dataFile);
-            pw.write(respons );
-            pw.close();
             br.close();
-            s.close();
-            ss.close();
+            bw.close();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public static void start(){
+        try {
+            ServerSocket server = new ServerSocket(9999);
+            Socket s = server.accept();
+            System.out.println("客户端:"+InetAddress.getLocalHost()+"已连接到服务器");
+            isRun = true;
+            while (isRun){
+                br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+                String mess = br.readLine();
+                System.out.println("客服端:"+mess);
+                bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+                Scanner scanner = new Scanner(System.in);
+                System.out.println("请输入:");
+                String str = scanner.nextLine();
+                if (str.equals("ext")){
+                    System.out.println("退出!");
+                    break;
+                }
+                bw.write(str);
+                bw.flush();
+            }
         }catch (UnknownHostException e){
             System.out.println("无法找到相应的机器,错误信息如下:"+e.getMessage());
         }catch (IOException e){

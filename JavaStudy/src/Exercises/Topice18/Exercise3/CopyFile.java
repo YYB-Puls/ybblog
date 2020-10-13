@@ -9,7 +9,6 @@ import java.util.Scanner;
  *      将源文件内容复制到目标文件
  *      如果目标文件不存在则首先创建目录文件
  */
-// FIXME: 2020/10/13 空指针异常
 public class CopyFile {
     private static String wjm;
 
@@ -18,13 +17,13 @@ public class CopyFile {
         System.out.println("输入要复制的文件路径");
         wjm = scanner.nextLine();
         File formerFile = new File(wjm);
-        imput(formerFile);
-        out();
+        String f = imput(formerFile);
+        out(f);
     }
 
-    public static void out(){
+    public static void out(String  str){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入的文件路径");
+        System.out.println("请输入目标的文件路径");
         String newWjm = scanner.nextLine();
         File file = new File(newWjm);
         if (file.isFile() && file.exists()){
@@ -40,7 +39,7 @@ public class CopyFile {
         }
         try {
             FileOutputStream fos = new FileOutputStream(file);
-            byte[] bytes = imput(file).getBytes();
+            byte[] bytes = str.getBytes();
             fos.write(bytes);
             fos.close();
             System.out.println("数据写入成功");
@@ -70,7 +69,6 @@ public class CopyFile {
             fis.close();
         }catch (FileNotFoundException e){
             System.out.println("找不到文件,错误信息:"+e.getMessage());
-            // todo 目标文件不存在也没有按要求创建（题目：如果目标文件不存在则首先创建目录文件？？？）
         }catch (IOException e){
             e.printStackTrace();
         }
