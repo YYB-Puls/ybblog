@@ -1,12 +1,11 @@
 package Day19.learnsocktudp;
 
-import sun.security.util.Length;
+
 
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.SocketException;
-import java.net.UnknownHostException;
+
 
 public class UDPReceive {
     public static void main(String[] args) {
@@ -26,11 +25,7 @@ public class UDPReceive {
             String content = new String(recData,0,len) ;
             System.out.println("接收到的数据为:"+content);
             ds.close();
-        }catch (SocketException e){
-            e.printStackTrace();
-        }catch (UnknownHostException e){
-            e.printStackTrace();
-        }catch (IOException e){
+        } catch (IOException e){
             e.printStackTrace();
         }
     }

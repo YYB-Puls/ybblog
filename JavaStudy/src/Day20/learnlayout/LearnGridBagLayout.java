@@ -49,16 +49,16 @@ public class LearnGridBagLayout {
         gbc.gridheight =1;
         gbc.gridwidth = 3;
         gbc.fill = GridBagConstraints.BOTH;
-        gbc.weightx = 1.0;
+        /*gbc.weightx = 1.0;
         gbc.weighty = 1.0;
-        container.add(Panel2,gbc);
-        GridLayout btnslayout = new GridLayout(2,3);
+        container.add(Panel2,gbc);*/
+        /*GridLayout btnslayout = new GridLayout(2,3);
         Panel2.setLayout(btnslayout);
         Panel2.add(new JButton("面板内的按钮1"));
         Panel2.add(new JButton("面板内的按钮2"));
         Panel2.add(new JButton("面板内的按钮3"));
         Panel2.add(new JButton("面板内的按钮4"));
-        Panel2.add(new JButton("面板内的按钮5"));
+        Panel2.add(new JButton("面板内的按钮5"));*/
         frame.setVisible(true);
 
     }
