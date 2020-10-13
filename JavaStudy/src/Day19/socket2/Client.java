@@ -20,13 +20,18 @@ public class Client {
             while (isRun){
                 System.out.println("请输入:");
                 String input = scanner.nextLine();
-                bw.write(input);
+                if (input.equals("ext") ){
+                    System.out.println("程序关闭");
+                    break;
+                }
+                bw.write(input+"\n");
                 bw.flush();
+                BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+                String s = br.readLine();
+                System.out.println("服务器:"+s);
+
             }
 
-            BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
-            String s = br.readLine();
-            System.out.println("服务器:"+s);
         }catch (IOException e){
             e.printStackTrace();
         }
