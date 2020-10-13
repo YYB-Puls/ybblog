@@ -23,11 +23,6 @@ public class TestParent {
     //编写一个静态方法invokMethods参数为parent类的引用
     public static void invokeMethods(Parent parent) {
         //方法中首先使用instanceof判断参数指向对象所属的类,然后调用method1()方法和method2()方法
-        // todo 这句话没有任何意义，就像你爹是你爹一样没有意义，好好琢磨一下
-        if (parent instanceof Parent) {
-            parent.method1();
-            parent.method2();
-        }
         if (parent instanceof Child) {
             Child child = (Child) parent;
             child.method1();

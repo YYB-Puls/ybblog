@@ -357,7 +357,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602563979940" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602564328340" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -395,20 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataFile">
-    <configuration name="BaseSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day19.socket.BaseSocketClient" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day19.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestParent">
     <configuration name="ChatSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day19.socket.ChatSocket" />
       <module name="JavaStudy" />
@@ -480,6 +467,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day19.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Topice10.TestParent" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.Topice10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -566,19 +566,19 @@
       <item itemvalue="Application.UDPSender" />
       <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.Exercise02" />
-      <item itemvalue="Application.BaseSocketClient" />
       <item itemvalue="Application.SocketServer" />
       <item itemvalue="Application.ChatSocket" />
       <item itemvalue="Application.Demo03" />
       <item itemvalue="Application.DataFile" />
+      <item itemvalue="Application.TestParent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestParent" />
         <item itemvalue="Application.DataFile" />
         <item itemvalue="Application.Demo03" />
         <item itemvalue="Application.ChatSocket" />
         <item itemvalue="Application.SocketServer" />
-        <item itemvalue="Application.BaseSocketClient" />
       </list>
     </recent_temporary>
   </component>
