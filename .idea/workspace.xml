@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day19/socket/BaseSocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day19/socket/BaseSocketServet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day19/socket/ChatSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day19/socket/ListenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day19/socket/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day21/MessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/src/Day21/Messenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice05/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice05/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise1/DataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise1/DataFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/Exercises/Topice10/TestParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/Exercises/Topice10/TestParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise2/DeleFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise2/DeleFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +64,7 @@
         <counts>
           <entry key="20-27图" value="1" />
           <entry key="6习题" value="1" />
-          <entry key="java" value="552" />
+          <entry key="java" value="553" />
           <entry key="jpg" value="3" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
@@ -82,7 +73,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="552" />
+          <entry key="JAVA" value="553" />
           <entry key="JSP" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
@@ -92,14 +83,14 @@
         <counts>
           <entry key="6习题" value="336" />
           <entry key="dummy" value="218" />
-          <entry key="java" value="89179" />
+          <entry key="java" value="89213" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="89179" />
+          <entry key="JAVA" value="89213" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="554" />
           <entry key="XML" value="60" />
@@ -154,11 +145,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise1/DataFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="124">
+              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise2/DeleFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -242,7 +245,6 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day18/witeandread/WriteDataUsingStream.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day18/witeandread/ReadDataFormFile.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day18/fileoperation/CreateFileAndFolder.java" />
-        <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise2/DeleFile.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise3/CopyFile.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day19/learnsockettcp/Client.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day19/learnsockettcp/Server.java" />
@@ -273,6 +275,7 @@
         <option value="$PROJECT_DIR$/JavaStudy/src/Day19/socket/SocketServer.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice05/Demo03.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise1/DataFile.java" />
+        <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise2/DeleFile.java" />
       </list>
     </option>
   </component>
@@ -298,7 +301,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1022" />
@@ -354,7 +357,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602563942787" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602563979940" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -624,7 +627,7 @@
       <workItem from="1602314472174" duration="14229000" />
       <workItem from="1602406038042" duration="1405000" />
       <workItem from="1602508037214" duration="13957000" />
-      <workItem from="1602560639784" duration="2158000" />
+      <workItem from="1602560639784" duration="2408000" />
     </task>
     <servers />
   </component>
@@ -634,7 +637,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350249000" />
+    <option name="totallyTimeSpent" value="350499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,6 +650,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019531" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="1" />
@@ -665,11 +669,11 @@
       <window_info anchor="bottom" id="Messages" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.36961207" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.36961207" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.40625" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="TODO" order="13" visible="true" weight="0.3297414" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
@@ -851,13 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise2/DeleFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1125,8 +1122,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise1/DataFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="124">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice18/Exercise2/DeleFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
