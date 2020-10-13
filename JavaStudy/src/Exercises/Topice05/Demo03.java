@@ -11,16 +11,23 @@ public class Demo03 {
 
     private static void answerYB() {
         int[][] ShuZu = new int[10][2];
-        // todo 使用两个引用而不是一个引用，注意审题
+        int[][] shuZu2 = ShuZu;
+
         for (int i = 0; i < ShuZu.length; i++) {
             for (int j = 0; j < 2; j++) {
                 if (ShuZu[i][j] == ShuZu[i][0]) {
                     ShuZu[i][j] = 1;
                 }
-                if (ShuZu[i][j] == ShuZu[i][1]) {
-                    ShuZu[i][j] = 2;
-                }
                 System.out.print(ShuZu[i][j] + "\t");
+            }
+            System.out.println();
+        }
+        for (int i = 0; i < shuZu2.length; i++){
+            for (int j = 0; j < 2; j++){
+                if (shuZu2[i][j] == shuZu2[i][1]) {
+                    shuZu2[i][j] = 2;
+                }
+                System.out.print(shuZu2[i][j] + "\t");
             }
             System.out.println();
         }
