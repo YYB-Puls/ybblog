@@ -1,6 +1,7 @@
 package Exercises.Topice18.Exercise3;
 
 import java.io.*;
+import java.util.Scanner;
 
 /**
  * 习题3:
@@ -8,32 +9,38 @@ import java.io.*;
  *      将源文件内容复制到目标文件
  *      如果目标文件不存在则首先创建目录文件
  */
+// FIXME: 2020/10/13 空指针异常
 public class CopyFile {
-    public static void main(String[] args) {
-        // todo 通过命令行，你这里是写死的，不符合题目要求
-        File formerFile = new File("D:\\dateFile.txt");
+    private static String wjm;
+
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("输入要复制的文件路径");
+        wjm = scanner.nextLine();
+        File formerFile = new File(wjm);
         imput(formerFile);
         out();
     }
 
     public static void out(){
-        File formerFile = new File("D:\\dateFile.txt");
-        File file = new File("D:\\NewFile.txt");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入的文件路径");
+        String newWjm = scanner.nextLine();
+        File file = new File(newWjm);
         if (file.isFile() && file.exists()){
             System.out.println("文件已存在");
         }else {
             try {
                 file.createNewFile();
-                System.out.println("创建NewFile.txt文件");
+                System.out.println("创建"+newWjm+"文件");
             }catch (IOException e){
                 System.out.println("创建出错,错误信息:"+e.getMessage());
                 return;
             }
         }
-        try {// todo 你试着用这个程序复制一个超过1024的记事本，记得自测，自测很重要
-            String content = imput(formerFile);
-            FileOutputStream fos = new FileOutputStream(content);
-            byte[] bytes = content.getBytes();
+        try {
+            FileOutputStream fos = new FileOutputStream(file);
+            byte[] bytes = imput(file).getBytes();
             fos.write(bytes);
             fos.close();
             System.out.println("数据写入成功");
@@ -42,21 +49,24 @@ public class CopyFile {
         }
     }
 
-    public static String imput (File file){
-        if (file.isFile() ){
+    public static String imput (File file) throws IOException {
+        if (file.exists() ){
             System.out.println("开始读取数据!");
         }else {
-            return "未找到文件!";
+            System.out.println("文件不存在");
+            boolean dataFile = file.createNewFile();
+            System.out.println(dataFile?"创建成功":"创建失败");
         }
         System.out.print("文件内容:");
         String content = null;
         try {
-            // todo 如果你的文件内容超过1024个字，你会发现后面的你打印不出来，因为你这个功能不能读取文件全部内容
             FileInputStream fis = new FileInputStream(file);
             byte[] bytes = new byte[1024];
-            int len = fis.read(bytes);
-            content = new String(bytes,0,len);
-            System.out.println(content);
+            int len ;
+            while ((len= fis.read(bytes)) != -1){
+                content = new String(bytes,0,len,"UTF-8");
+                System.out.println(content);
+            }
             fis.close();
         }catch (FileNotFoundException e){
             System.out.println("找不到文件,错误信息:"+e.getMessage());
