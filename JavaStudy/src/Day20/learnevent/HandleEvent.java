@@ -1,7 +1,5 @@
 package Day20.learnevent;
 
-import com.sun.org.apache.xml.internal.security.Init;
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -26,7 +24,7 @@ public class HandleEvent {
         container.add(label );
         container.add(button );
         button.setText("有事件触发的按钮");
-        MyListener listener = new MyListener(label);
+        MyListener listener = new MyListener();
         button.addActionListener(listener);
     }
 

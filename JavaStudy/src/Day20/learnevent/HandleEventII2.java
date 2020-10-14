@@ -1,7 +1,5 @@
 package Day20.learnevent;
 
-import org.w3c.dom.css.Counter;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -28,7 +26,7 @@ public class HandleEventII2 {
         container.add(label );
         container.add(button );
         button.setText("有事件触发的按钮");
-        MyListener listener = new MyListener(label);
+        MyListener listener = new MyListener();
         button.addActionListener(listener);
         button.addActionListener(new ActionListener() {
             int counter = 0;

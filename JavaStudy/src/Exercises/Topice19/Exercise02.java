@@ -1,5 +1,7 @@
 package Exercises.Topice19;
 
+import Exercises.Topice20.Execise03;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
@@ -19,6 +21,7 @@ public class Exercise02 {
         String ip = scanner.nextLine();
         String s = duWenJian(file);
         client(ip,s );
+
     }
 
     public static void client(String str,String s) throws IOException {
