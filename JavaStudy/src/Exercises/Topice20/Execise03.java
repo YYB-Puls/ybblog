@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class Execise03 {
     public static void main(String[] args) {
@@ -21,29 +22,39 @@ public class Execise03 {
         container.setLayout(layout);
 
         JLabel label = new JLabel("客服端:");
-        JTextField input = new JTextField("请输入文字");
+        final JTextField input = new JTextField("请输入文字");
+        JLabel label1 = new JLabel("ip地址:");
+        Scanner scanner = new Scanner(System.in);
+        String ip = scanner.nextLine();
+        System.out.println("请输入ip地址:");
+        final JTextField ipInput = new JTextField(ip);
         JButton btnSend = new JButton("发送");
         JButton btnFile = new JButton("传文件");
 
-        GridBagConstraints labelGbc = getGbc(0, 0, 8, 3, 1, 3, GridBagConstraints.BOTH);
-        GridBagConstraints inputGbc = getGbc(0, 3, 6, 2, 6, 1, GridBagConstraints.BOTH);
+        GridBagConstraints label1Gbc = getGbc(0, 0, 1, 1, 1, 1, GridBagConstraints.BOTH);
+        GridBagConstraints ipInputGbc = getGbc(1, 0, 7, 1, 8, 1, GridBagConstraints.BOTH);
+        GridBagConstraints labelGbc = getGbc(0, 1, 1, 1, 1, 3, GridBagConstraints.BOTH);
+        GridBagConstraints inputGbc = getGbc(0, 3, 1, 1, 6, 1, GridBagConstraints.BOTH);
         GridBagConstraints btnSendGbc = getGbc(6, 3, 1, 1, 1, 1, GridBagConstraints.BOTH);
         GridBagConstraints btnFileGbc = getGbc(7, 3, 1, 1, 1, 1, GridBagConstraints.BOTH);
         container.add(label, labelGbc);
         container.add(input, inputGbc);
         container.add(btnSend, btnSendGbc);
         container.add(btnFile, btnFileGbc);
+        container.add(label1, label1Gbc);
+        container.add(ipInput, ipInputGbc);
+        getIp(label1);
         btnFile.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JFileChooser fileChooser = new JFileChooser();
-
+                String strIp = ipInput.getText();
                 int i = fileChooser.showOpenDialog(null);
                 if (i == fileChooser.APPROVE_OPTION) {
                     String path = fileChooser.getSelectedFile().getAbsolutePath();
                     String content = readFileContent(path);
                     try {
-                        sendContent(content,"127.0.0.1");
+                        sendContent(content,strIp);
                     } catch (IOException e1) {
                         e1.printStackTrace();
                     }
@@ -90,7 +101,7 @@ public class Execise03 {
         return content;
     }
 
-    private static GridBagConstraints getGbc(int gridx, int gridy, int gridw, int gridh, float weightx, float weighty, int fill) {
+    private static GridBagConstraints getGbc(int gridx, int gridy, int gridw, int gridh, double weightx, double  weighty, int fill) {
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = gridx;
         gbc.gridy = gridy;
@@ -104,12 +115,16 @@ public class Execise03 {
 
     private static JFrame makeFrame() {
         JFrame frame = new JFrame();
-        frame.setSize(800, 400);
+        frame.setSize(800, 500);
         frame.setLocation(new Point(100, 100));
         frame.setTitle("聊天系统");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         return frame;
     }
 
+    private static String getIp(JLabel label){
+        String getIp = label.getText();
+        return getIp;
+    }
 
 }
