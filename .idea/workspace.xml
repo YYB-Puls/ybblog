@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day01/src/cn/itcast/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,19 +63,20 @@
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="2" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.90" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="43" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="20-27图" value="1" />
           <entry key="6习题" value="1" />
-          <entry key="java" value="610" />
+          <entry key="java" value="613" />
           <entry key="jpg" value="5" />
           <entry key="jsp" value="6" />
           <entry key="xml" value="2" />
@@ -82,7 +85,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="610" />
+          <entry key="JAVA" value="613" />
           <entry key="JSP" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
@@ -92,14 +95,14 @@
         <counts>
           <entry key="6习题" value="336" />
           <entry key="dummy" value="231" />
-          <entry key="java" value="105580" />
+          <entry key="java" value="106392" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="105580" />
+          <entry key="JAVA" value="106392" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="567" />
           <entry key="XML" value="60" />
@@ -115,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JXCManager/src/com/lzw/dao/Dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="243">
               <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,11 +130,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/junit/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="81">
               <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
                 <element signature="e#151#152#0" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
               </folding>
@@ -148,25 +151,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice20/TestServerSocketn.java">
+        <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,25 +186,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day19/socket2/Client.java">
+        <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/domain/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice19/Exercise01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -250,9 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day18/witeandread/WriteDataUsingStream.java" />
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day18/witeandread/ReadDataFormFile.java" />
-        <option value="$PROJECT_DIR$/JavaStudy/src/Day18/fileoperation/CreateFileAndFolder.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day19/learnsocktudp/UDPSender.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day20/learncomponent/LearnJFrame.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day20/learncomponent/LearnLabel.java" />
@@ -301,6 +294,9 @@
         <option value="$PROJECT_DIR$/Day01/src/cn/itcast/junit/ClaculatorTest.java" />
         <option value="$PROJECT_DIR$/Day01/src/cn/itcast/test/calcuatorTest.java" />
         <option value="$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java" />
+        <option value="$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo1.java" />
+        <option value="$PROJECT_DIR$/Day01/src/cn/itcast/domain/Person.java" />
+        <option value="$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo2.java" />
       </list>
     </option>
   </component>
@@ -326,7 +322,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1022" />
@@ -351,7 +347,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,22 +388,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ybblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ybblog" type="462c0819:PsiDirectoryNode" />
-              <item name="Day01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -418,7 +405,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603526575154" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603532597365" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -460,7 +447,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalcuatorTest.testAdd">
+  <component name="RunManager" selected="Application.ReflectDemo2">
     <configuration name="ClaculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.junit.ClaculatorTest" />
       <module name="Day01" />
@@ -487,19 +474,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Execise03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Topice20.Execise03" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercises.Topice20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Exercise02" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Exercises.Topice18.Exercise3.CopyFile" />
       <module name="JavaStudy" />
@@ -513,12 +487,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Topice20.Test" />
-      <module name="JavaStudy" />
+    <configuration name="ReflectDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.reflect.ReflectDemo1" />
+      <module name="Day01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.Topice20.*" />
+          <option name="PATTERN" value="cn.itcast.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -526,8 +500,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestServerSocketn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Topice20.TestServerSocketn" />
+    <configuration name="ReflectDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.reflect.ReflectDemo2" />
+      <module name="Day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Topice20.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -634,19 +621,19 @@
       <item itemvalue="Application.UDPSender" />
       <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.Exercise02" />
-      <item itemvalue="Application.Execise03" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestServerSocketn" />
       <item itemvalue="Application.ClaculatorTest" />
       <item itemvalue="JUnit.CalcuatorTest.testAdd" />
+      <item itemvalue="Application.ReflectDemo1" />
+      <item itemvalue="Application.ReflectDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectDemo2" />
+        <item itemvalue="Application.ReflectDemo1" />
         <item itemvalue="JUnit.CalcuatorTest.testAdd" />
         <item itemvalue="Application.ClaculatorTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestServerSocketn" />
-        <item itemvalue="Application.Execise03" />
       </list>
     </recent_temporary>
   </component>
@@ -702,7 +689,8 @@
       <workItem from="1603122995955" duration="3936000" />
       <workItem from="1603206376950" duration="6364000" />
       <workItem from="1603294973321" duration="6655000" />
-      <workItem from="1603476514396" duration="3697000" />
+      <workItem from="1603476514396" duration="8012000" />
+      <workItem from="1603536193836" duration="602000" />
     </task>
     <servers />
   </component>
@@ -722,9 +710,12 @@
     <history-entry file="CalcuatorTest_testAdd - 2020.10.24 at 15h 56m 24s.xml">
       <configuration name="CalcuatorTest.testAdd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalcuatorTest_testAdd - 2020.10.24 at 16h 02m 58s.xml">
+      <configuration name="CalcuatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431473000" />
+    <option name="totallyTimeSpent" value="436390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,7 +727,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1062" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1062" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019531" side_tool="true" weight="0.25266525" />
@@ -745,7 +736,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50321543" side_tool="true" weight="0.2707889" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49678457" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49678457" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3297414" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3297414" />
@@ -890,27 +881,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day20/learncomponent/LearnJFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice05/Demo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice10/TestParent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1150,9 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4968">
           <caret line="201" column="31" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,9 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,9 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,9 +1148,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JXCManager/src/com/lzw/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/junit/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/junit/ClaculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1217,44 +1230,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JXCManager/src/com/lzw/dao/Dao.java">
+    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="610">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/junit/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/junit/ClaculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
