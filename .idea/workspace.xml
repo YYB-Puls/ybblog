@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,14 +92,14 @@
         <counts>
           <entry key="6习题" value="336" />
           <entry key="dummy" value="231" />
-          <entry key="java" value="105485" />
+          <entry key="java" value="105580" />
           <entry key="jsp" value="43" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="105485" />
+          <entry key="JAVA" value="105580" />
           <entry key="JSP" value="43" />
           <entry key="PLAIN_TEXT" value="567" />
           <entry key="XML" value="60" />
@@ -151,10 +151,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -416,7 +418,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603526209759" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603526575154" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -700,7 +702,7 @@
       <workItem from="1603122995955" duration="3936000" />
       <workItem from="1603206376950" duration="6364000" />
       <workItem from="1603294973321" duration="6655000" />
-      <workItem from="1603476514396" duration="3279000" />
+      <workItem from="1603476514396" duration="3697000" />
     </task>
     <servers />
   </component>
@@ -714,9 +716,15 @@
     <history-entry file="CalcuatorTest_testAdd - 2020.10.24 at 15h 50m 31s.xml">
       <configuration name="CalcuatorTest.testAdd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalcuatorTest_testAdd - 2020.10.24 at 15h 55m 38s.xml">
+      <configuration name="CalcuatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcuatorTest_testAdd - 2020.10.24 at 15h 56m 24s.xml">
+      <configuration name="CalcuatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431055000" />
+    <option name="totallyTimeSpent" value="431473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1241,10 +1249,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/test/CalcuatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
