@@ -10,6 +10,14 @@ public class Person {
 
     }
 
+    public void eat(){
+        System.out.println("ear............");
+    }
+
+    public void eat(String ford){
+        System.out.println("eat........"+ford);
+    }
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
