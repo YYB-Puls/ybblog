@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class Dao {
-    protected static String dbClassName = "com.microsoft.jdbc.sqlserver.SQLServerDrive";
+   /* protected static String dbClassName = "com.microsoft.jdbc.sqlserver.SQLServerDrive";
     protected static String dbUrl = "jdbc.microsoft:";
     protected static String dbUser = "";
     protected static String dbPwd = "";
@@ -28,5 +28,5 @@ public class Dao {
         return insert("insert tb_gysinfo values(\""+gysinfo.getId()+"\",\""+gysinfo.getName()+"\",\""+gysinfo.getJc()+","+
                 gysinfo.getAddress()+","+gysinfo.getBianma()+","+gysinfo.getTel()+","+gysinfo.getFax()+","+gysinfo.getLian()+","+
                 gysinfo.getLtel()+","+gysinfo.getMail()+","+gysinfo.getYh()+")");
-    }
+    }*/
 }
