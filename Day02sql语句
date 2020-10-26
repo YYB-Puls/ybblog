@@ -1,0 +1,49 @@
+CREATE table  stu(id int ,name VARCHAR(32) ,age  int ,score DOUBLE(4,1) ,birthday date,insert_time  timestamp NOT NULL)
+
+INSERT into stu(id,name,age)
+VALUES(1,'张三',19)
+
+select * from stu;
+
+insert into stu VALUES(2,'s',20,223.1,'2020-02-1',null)
+
+delete from stu where id = 2;
+
+update stu set name = '李四'
+where name = '张三'
+
+
+create table student(
+ id int ,
+ nmae varchar(20),
+ sex varchar(1),
+ address varchar(100),
+ math int ,
+english int
+
+)
+
+alter table student modify sex VARCHAR(2)
+
+
+SELECT * from student
+
+insert into student(id,nmae,sex,address,math,english) values(1,'马云','男','杭州',66,78),(2,'马化腾','女','深圳',98,87)
+,(3,'马景涛','男','香港',77,88),(4,'柳岩','女','湖南',76,88),(5,'柳青','男','湖南',78,89),(6,'刘德华','男','香港',89,90),
+(7,'玛德','女','长沙',82,32),(8,'盖伦','男','峡谷',88,29)
+
+
+select sex,nmae from student;
+
+
+select distinct nmae from student;
+
+select nmae , math, english,math + english from student;
+
+select * from student where math < 70 and math > 60
+
+select * from student where english is not null
+
+select * from student where nmae like '马%'
+
+

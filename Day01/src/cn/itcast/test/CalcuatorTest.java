@@ -7,7 +7,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CalcuatorTest {
-
     /**
      * 初始化方法
      */
