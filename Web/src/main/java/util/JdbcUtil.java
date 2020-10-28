@@ -1,15 +1,17 @@
 package util;
 
 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class JdbcUtil {
-    public static void main(String[] args) {
+    public static void jdbc(){
+
         Connection con;
         //jdbc驱动
-        String driver="com.mysql.cj.jdbc.Driver";
+        String driver="com.mysql.jdbc.Driver";
         //这里我的数据库是cxxt
         String url="jdbc:mysql://localhost:3306/jdbc_web?&useSSL=false&serverTimezone=UTC";
         String user="root";

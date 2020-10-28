@@ -18,6 +18,7 @@ public class RegisterServlet extends HttpServlet {
         String password = request.getParameter("password");
         System.out.println(name);
         System.out.println(password);
+        JdbcUtil.jdbc();
     }
 
     protected void doGet(HttpServletRequest request ,HttpServletResponse response) throws  IOException{
