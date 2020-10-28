@@ -2,14 +2,12 @@ package util;
 
 
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class JdbcUtil {
-    public static void jdbc(){
+    private static Connection con;
 
-        Connection con;
+    public static Connection jdbc(){
         //jdbc驱动
         String driver="com.mysql.jdbc.Driver";
         //这里我的数据库是cxxt
@@ -24,13 +22,29 @@ public class JdbcUtil {
             if (!con.isClosed()) {
                 System.out.println("数据库连接成功");
             }
-            con.close();
         } catch (ClassNotFoundException e) {
             System.out.println("数据库驱动没有安装");
 
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("数据库连接失败");
+        }
+        return con;
+    }
+
+    public static void close(Connection conn, PreparedStatement pstmt, ResultSet rs){
+        try {
+            if (rs != null) {
+                rs.close();
+            }
+            if (pstmt != null) {
+                pstmt.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 }
