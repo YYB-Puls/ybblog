@@ -42,7 +42,7 @@
             </div>
             <div class="content">
                 <div class="errormsg"></div>
-                <form action="new_file.html" method="post">
+                <form action="login" method="post">
                     <div class="input-field">
                         <i class="fa fa-user-o"></i>
                         <input name="username" type="text" placeholder="用户名">

@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>注册成功</h1>
+    <a href="register.jsp"><h1>注册成功,点击进入登录页面</h1></a>
 </body>
 </html>

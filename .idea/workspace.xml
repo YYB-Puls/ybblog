@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Web/src/main/java/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/src/main/java/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/src/main/java/util/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/src/main/java/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/src/main/java/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Web/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/web/register2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Web/web/register2.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Web/target/" />
@@ -85,7 +87,7 @@
           <entry key="class" value="1" />
           <entry key="css" value="3" />
           <entry key="html" value="1" />
-          <entry key="java" value="635" />
+          <entry key="java" value="636" />
           <entry key="jpg" value="5" />
           <entry key="jsp" value="16" />
           <entry key="properties" value="2" />
@@ -100,7 +102,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="635" />
+          <entry key="JAVA" value="636" />
           <entry key="JSP" value="16" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="2" />
@@ -114,19 +116,19 @@
           <entry key="Day02sql语句" value="3" />
           <entry key="Mysql" value="120" />
           <entry key="dummy" value="231" />
-          <entry key="java" value="110725" />
-          <entry key="jsp" value="80" />
+          <entry key="java" value="110944" />
+          <entry key="jsp" value="113" />
           <entry key="properties" value="248" />
-          <entry key="xml" value="312" />
+          <entry key="xml" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="110725" />
-          <entry key="JSP" value="80" />
+          <entry key="JAVA" value="110944" />
+          <entry key="JSP" value="113" />
           <entry key="PLAIN_TEXT" value="690" />
           <entry key="Properties" value="248" />
-          <entry key="XML" value="312" />
+          <entry key="XML" value="326" />
         </counts>
       </usages-collector>
     </session>
@@ -139,8 +141,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web/web/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="216">
+              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/src/main/java/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/src/main/java/servlet/RegisterServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="243">
+              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/src/main/java/util/JdbcUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -169,8 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="324">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -179,7 +193,7 @@
         <entry file="file://$PROJECT_DIR$/Web/web/register2.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -210,7 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice20/Execise01.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day22/bookstorage/Book.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Day22/testjdbcodbcbridge/TestDatasource.java" />
         <option value="$PROJECT_DIR$/JavaInstance/src/Day01/lzw/JXCFrame.java" />
@@ -251,16 +264,17 @@
         <option value="$PROJECT_DIR$/Web/META-INF/regiseter.html" />
         <option value="$PROJECT_DIR$/Web/META-INF/css/in.css" />
         <option value="$PROJECT_DIR$/Web/web/WEB-INF/regiseter.jsp" />
-        <option value="$PROJECT_DIR$/Web/web/register.jsp" />
         <option value="$PROJECT_DIR$/Web/web/WEB-INF/reister2.jsp" />
-        <option value="$PROJECT_DIR$/Web/web/register2.jsp" />
         <option value="$PROJECT_DIR$/Web/src/util/db.properties" />
-        <option value="$PROJECT_DIR$/Web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Web/src/servlet/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/Web/src/util/JdbcUtil.java" />
         <option value="$PROJECT_DIR$/Web/pom.xml" />
         <option value="$PROJECT_DIR$/Web/src/main/java/util/JdbcUtil.java" />
         <option value="$PROJECT_DIR$/Web/src/main/java/servlet/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/Web/web/register2.jsp" />
+        <option value="$PROJECT_DIR$/Web/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Web/src/main/java/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/Web/web/register.jsp" />
       </list>
     </option>
   </component>
@@ -378,6 +392,13 @@
             </path>
             <path>
               <item name="ybblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ybblog" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ybblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -397,7 +418,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603928102386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603929239898" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -445,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.register.jsp (2)">
+  <component name="RunManager" selected="Tomcat Server.register.jsp (3)">
     <configuration name="CopyFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercises.Topice18.Exercise3.CopyFile" />
       <module name="JavaStudy" />
@@ -465,19 +486,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exercises.Topice18.Exercise3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.JdbcUtil" />
-      <module name="Web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -838,6 +846,78 @@
         </option>
       </method>
     </configuration>
+    <configuration name="register.jsp (3)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/register.jsp" />
+      <deployment>
+        <artifact name="Web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ybblog" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53969" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Web:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="register.jsp (4)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/register.jsp" />
       <deployment>
@@ -988,19 +1068,19 @@
       <item itemvalue="Application.Exercise02" />
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Tomcat Server.Web" />
-      <item itemvalue="Application.JdbcUtil" />
       <item itemvalue="Tomcat Server.register.jsp" />
       <item itemvalue="Tomcat Server.register.jsp (4)" />
       <item itemvalue="Tomcat Server.register.jsp (1)" />
       <item itemvalue="Tomcat Server.register.jsp (2)" />
+      <item itemvalue="Tomcat Server.register.jsp (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.register.jsp (3)" />
         <item itemvalue="Tomcat Server.register.jsp (2)" />
         <item itemvalue="Tomcat Server.register.jsp (1)" />
         <item itemvalue="Tomcat Server.register.jsp (4)" />
         <item itemvalue="Tomcat Server.register.jsp" />
-        <item itemvalue="Application.JdbcUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -1063,7 +1143,7 @@
       <workItem from="1603866735978" duration="17572000" />
       <workItem from="1603888521469" duration="2360000" />
       <workItem from="1603891287866" duration="683000" />
-      <workItem from="1603926619850" duration="1392000" />
+      <workItem from="1603926619850" duration="2453000" />
     </task>
     <servers />
   </component>
@@ -1088,7 +1168,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475106000" />
+    <option name="totallyTimeSpent" value="476167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1109,7 +1189,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50321543" side_tool="true" weight="0.2707889" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49489796" visible="true" weight="0.20042644" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49489796" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info id="JavaEE:App" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3297414" />
@@ -1118,10 +1198,10 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32939914" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.3286638" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.36853448" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.36853448" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.40625" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -1255,13 +1335,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaStudy/src/Day19/socket2/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaStudy/src/Exercises/Topice19/Exercise01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1472,31 +1545,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/Web/src/main/java/util/JdbcUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/web/register2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/src/main/java/util/JdbcUtil.java">
+    <entry file="file://$PROJECT_DIR$/Web/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/src/main/java/servlet/RegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="243">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/src/main/java/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1505,8 +1588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/web/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
         </state>
       </provider>
     </entry>
