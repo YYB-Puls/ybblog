@@ -79,7 +79,7 @@
                     </div>
                     <div class="input-field">
                         <i class="fa fa-lock"></i>
-                        <input name="password2"  type="password2" placeholder="再次输入密码">
+                        <input name="password2"  type="password" placeholder="再次输入密码">
                     </div>
                     <div class="input-field">
                         <input type="submit" value="注册">
