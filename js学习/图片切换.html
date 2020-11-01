@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片切换</title>
+</head>
+<body>
+<img id="tupian" src="5.jpg">
+
+<script>
+    var tupian = document.getElementById("tupian");
+    var istupian = false;
+    tupian.onclick = function () {
+        if (istupian){
+            tupian.src="5.jpg";
+            istupian = false;
+        } else {
+            tupian.src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604226815875&di=1e8aa1167ab3ea3662ba3d84ebb8c7e6&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F64%2F52%2F01300000407527124482522224765.jpg";
+            istupian = true;
+        }
+    }
+</script>
+</body>
+</html>
