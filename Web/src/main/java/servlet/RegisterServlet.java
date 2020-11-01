@@ -20,14 +20,22 @@ public class RegisterServlet extends HttpServlet {
         String password = request.getParameter("password");
         System.out.println(name);
         System.out.println(password);
-        if (insert(name, password) > 0) {
-            request.getRequestDispatcher("/register2.jsp").forward(request, response);
+        if (LoginServlet.selectUser(name, password) == false){
+            if (insert(name, password) > 0) {
+                request.getRequestDispatcher("/register2.jsp").forward(request, response);
+            }
+        }else {
+            System.out.println("已注册,请登录");
+            request.getRequestDispatcher("/register.jsp").forward(request, response);
         }
+
     }
 
     protected void doGet(HttpServletRequest request ,HttpServletResponse response) throws IOException, ServletException {
         doPost(request, response);
     }
+
+
 
     public int insert(String name , String password){
         int savResult = 0;
