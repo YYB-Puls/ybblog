@@ -82,7 +82,7 @@
                         <input name="password2"  type="password" placeholder="再次输入密码">
                     </div>
                     <div class="input-field">
-                        <input type="submit" value="注册">
+                        <input  type="submit" value="注册">
                     </div>
                 </form>
             </div>
@@ -92,6 +92,7 @@
 
 </main>
 <script>
+
     function $(selector){
         return document.querySelector(selector)
     }
