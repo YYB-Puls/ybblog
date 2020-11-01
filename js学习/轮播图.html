@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+</head>
+<body>
+    <img id="lunbo" src="img/1.jpg" width="50%">
+
+<script>
+    var cishu = 1;
+    function fun() {
+        cishu ++;
+        if (cishu == 8){
+            cishu = 1;
+        }
+        var lunbo = document.getElementById("lunbo");
+        lunbo.src = "img/"+cishu+".jpg";
+    }
+
+    setInterval(fun,3000);
+</script>
+</body>
+</html>
