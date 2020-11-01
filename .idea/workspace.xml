@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js学习/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js学习/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js学习/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js学习/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js学习/img/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js学习/img/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js学习/img/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js学习/轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js学习/页面自动跳转.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Web/target/" />
@@ -92,7 +85,7 @@
           <entry key="Mysql" value="2" />
           <entry key="class" value="1" />
           <entry key="css" value="3" />
-          <entry key="html" value="6" />
+          <entry key="html" value="7" />
           <entry key="java" value="636" />
           <entry key="jpg" value="7" />
           <entry key="jsp" value="18" />
@@ -106,7 +99,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="7" />
           <entry key="Image" value="7" />
           <entry key="JAVA" value="636" />
           <entry key="JSP" value="18" />
@@ -122,7 +115,7 @@
           <entry key="Day02sql语句" value="3" />
           <entry key="Mysql" value="120" />
           <entry key="dummy" value="231" />
-          <entry key="html" value="833" />
+          <entry key="html" value="1153" />
           <entry key="java" value="111417" />
           <entry key="jsp" value="203" />
           <entry key="properties" value="248" />
@@ -131,7 +124,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="833" />
+          <entry key="HTML" value="1153" />
           <entry key="JAVA" value="111417" />
           <entry key="JSP" value="203" />
           <entry key="PLAIN_TEXT" value="690" />
@@ -164,11 +157,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js学习/轮播图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="405">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js学习/页面自动跳转.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -249,7 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice19/Exercise02.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice20/Execise03.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice20/Test.java" />
         <option value="$PROJECT_DIR$/JavaStudy/src/Exercises/Topice20/TestServerSocketn.java" />
@@ -300,6 +301,7 @@
         <option value="$PROJECT_DIR$/Web/web/register.jsp" />
         <option value="$PROJECT_DIR$/js学习/Window对象.html" />
         <option value="$PROJECT_DIR$/js学习/轮播图.html" />
+        <option value="$PROJECT_DIR$/js学习/页面自动跳转.html" />
       </list>
     </option>
   </component>
@@ -408,7 +410,7 @@
     <property name="SearchEverywhereHistoryKey" value="Version Control&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604221307261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604222952093" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -1136,7 +1138,7 @@
       <workItem from="1603926619850" duration="9648000" />
       <workItem from="1603992980922" duration="1834000" />
       <workItem from="1604110581690" duration="3835000" />
-      <workItem from="1604215880200" duration="5042000" />
+      <workItem from="1604215880200" duration="6514000" />
     </task>
     <servers />
   </component>
@@ -1161,7 +1163,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="494073000" />
+    <option name="totallyTimeSpent" value="495545000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1328,13 +1330,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day01/src/cn/itcast/reflect/ReflectDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1570,8 +1565,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js学习/轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="405">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js学习/页面自动跳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面自动跳转</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p><span id="time">5</span>秒之后自动跳转页面</p>
+<script>
+    var time = document.getElementById("time");
+    var shijian = 5;
+    function fun() {
+
+        shijian --;
+        if (shijian <= 0){
+            location.href = "https://www.baidu.com";
+        }
+        time.innerHTML = shijian +"";
+    }
+
+    setInterval(fun,1000)
+</script>
+</body>
+</html>
