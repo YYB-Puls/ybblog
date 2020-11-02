@@ -49,7 +49,7 @@
     <script>
 
 
-        document.getElementById("btn_add").onclick = function () {
+       /* document.getElementById("btn_add").onclick = function () {
             var name = document.getElementById("name").value;
             var id = document.getElementById("id").value;
             var gender = document.getElementById("gender").value;
@@ -78,7 +78,22 @@
             tr.appendChild(td_a);
             var table = document.getElementsByTagName("table")[0];
             table.appendChild(tr);
-        }
+        }*/
+       document.getElementById("btn_add").onclick = function () {
+           var name = document.getElementById("name").value;
+           var id = document.getElementById("id").value;
+           var gender = document.getElementById("gender").value;
+           var td = document.getElementsByName("td");
+
+           var table = document.getElementsByTagName("table")[0];
+           table.innerHTML += " <tr>\n" +
+               "            <td>"+id+"</td>\n" +
+               "            <td>"+name+"</td>\n" +
+               "            <td>"+gender+"</td>\n" +
+               "            <td><a href=\"javascript:void(0)\" onclick=\"delTr(this)\">删除</a></td>\n" +
+               "        </tr>";
+
+       }
 
         function delTr(obj){
             var table = obj.parentNode.parentNode.parentNode;
