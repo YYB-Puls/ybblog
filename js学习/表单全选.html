@@ -35,6 +35,13 @@
                     cb[i].checked = false;
                 }
             }
+
+            document.getElementById("selectRev").onclick = function () {
+                var cb = document.getElementsByName("cb");
+                for (var i = 0; i < cb.length; i++) {
+                    cb[i].checked = !cb[i].checked;
+                }
+            }
         }
     </script>
 </head>
