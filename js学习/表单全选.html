@@ -18,6 +18,13 @@
             margin: auto;
             width: 500px;
         }
+
+        .out{
+            background-color: white;
+        }
+        .over{
+            background-color: yellow;
+        }
     </style>
 
     <script>
@@ -42,6 +49,24 @@
                     cb[i].checked = !cb[i].checked;
                 }
             }
+
+            document.getElementById("firsCb").onclick = function () {
+                var cb = document.getElementsByName("cb");
+                for (var i = 0; i < cb.length; i++) {
+                    cb[i].checked = this.checked;
+                }
+            }
+
+            var trs = document.getElementsByTagName("tr");
+            for (var i = 0; i < trs.length; i++) {
+                trs[i].onmouseover = function () {
+                    this.className = "over";
+                }
+                trs[i].onmouseout = function () {
+                    this.className = "out";
+                }
+
+            }
         }
     </script>
 </head>
@@ -49,7 +74,7 @@
     <table>
         <caption>学生信息表</caption>
         <tr>
-            <th><input type="checkbox" name="cb"></th>
+            <th><input type="checkbox" name="cb" id="firsCb"></th>
             <th>编号</th>
             <th>姓名</th>
             <th>性别</th>
