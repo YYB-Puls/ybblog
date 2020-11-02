@@ -29,7 +29,12 @@
                 }
             }
 
-           
+            document.getElementById("unSclocrAll").onclick = function () {
+                var cb = document.getElementsByName("cb");
+                for (var i = 0; i < cb.length; i++) {
+                    cb[i].checked = false;
+                }
+            }
         }
     </script>
 </head>
