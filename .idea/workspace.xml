@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c1c8ab-2eb1-4dae-a21b-340908f068d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js学习/动态表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js学习/动态表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/js学习/动态表格.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Web/target/" />
@@ -116,7 +116,7 @@
           <entry key="Day02sql语句" value="3" />
           <entry key="Mysql" value="120" />
           <entry key="dummy" value="231" />
-          <entry key="html" value="2167" />
+          <entry key="html" value="2321" />
           <entry key="java" value="111417" />
           <entry key="jsp" value="203" />
           <entry key="properties" value="248" />
@@ -125,7 +125,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2166" />
+          <entry key="HTML" value="2320" />
           <entry key="JAVA" value="111417" />
           <entry key="JSP" value="203" />
           <entry key="JavaScript" value="1" />
@@ -180,8 +180,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js学习/动态表格.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+            <state relative-caret-position="772">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -329,7 +329,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1022" />
@@ -1141,7 +1141,7 @@
       <workItem from="1603992980922" duration="1834000" />
       <workItem from="1604110581690" duration="3835000" />
       <workItem from="1604215880200" duration="10805000" />
-      <workItem from="1604285505018" duration="211000" />
+      <workItem from="1604285505018" duration="686000" />
     </task>
     <servers />
   </component>
@@ -1166,7 +1166,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="500073000" />
+    <option name="totallyTimeSpent" value="500522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1569,8 +1569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js学习/动态表格.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        <state relative-caret-position="772">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
         </state>
       </provider>
     </entry>
